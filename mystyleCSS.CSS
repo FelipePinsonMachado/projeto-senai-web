@@ -1,0 +1,13 @@
+h1 {
+    color: rgb(1, 255, 213);
+}
+
+div {
+     width: 100%;
+     background-color: rgb(255, 1, 1);
+     height: 80px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+  }
+ 
