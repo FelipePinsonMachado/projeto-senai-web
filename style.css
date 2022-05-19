@@ -1,9 +1,34 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100;
+}
 
 h1 {
 
-   color:rgb(97, 240, 1);
+   color:rgb(255, 255, 255);
 }
 
-div {
-      background-color:black;width:200px;height:70px;margin:15px
+.header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color:#FF0000;
+      width: 100%;
+      height: 100px;
+      margin: 15px;
+}
+
+.logo{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+    width: 200px;
+    height: 70px;  
+    margin: 15px;  
+}
+
+.conteudo {
+    background-color: blue;
 }
