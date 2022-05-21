@@ -6,8 +6,8 @@ html, body {
 
 .header {
     width: 100%;
-    height: 200px ;
-    background-color: blue;
+    height: 80px ;
+    background-color: red;
     display:flex;
     align-items: center;
     
@@ -16,8 +16,22 @@ html, body {
 
 .logo {
     
-    height: 60px ;
+    height: 40px ;
     background-color: black;
     
 }
 
+.quadrado{
+    width: 50px;
+    height: 50px ;
+    background-color: blue;
+    margin: 1px ;    
+}
+
+.meiodoquadrado{
+    background-color: white;
+    display: flex ;
+    align-items: center;
+    flex-direction: column;
+
+ }
