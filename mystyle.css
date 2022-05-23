@@ -32,11 +32,30 @@ html, body {
         align-items: center;
         justify-content: center;
         width: 100%;
-        flex-direction: row;
+        flex-direction: column;
 }
 
 
+.paiesquerda{
+         display:flex ; 
+         align-items:flex-start;
+         justify-content:flex-start;
+         width: 100%;
+         flex-direction:column;
+               
+}
 
+.paidireita{
+        display: flex;
+        align-items:flex-end;
+        justify-content:flex-end ; 
+        width: 100%;
+        flex-direction: column ;
+        flex-direction: right;
+        
+}
+  
+.paiesquerda
 
 
 
