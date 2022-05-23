@@ -33,15 +33,28 @@ h1 {
     
 }
 
-.barraladoesquerdo {
+.barra {
   background-color: blue; 
   height:50px;
   width:50px;
   margin:1px;
+   
+}
+.esquerdo {
+    
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    width: 100%;
+    
+    
+}
 
+.direito {
+    
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+    width: 100%;
 
-  
-
- 
-      
 }
