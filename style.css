@@ -47,9 +47,38 @@ border: crimson solid 1px;
 
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: row;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
+
+
+
+}
+
+.um{
+
+ width: 100%;   
+ display: flex;
+ justify-content: center;
+ 
+
+}
+
+.dois{
+
+width: 100%;
+display: flex;
+justify-content: left;
+
+
+
+}
+
+.tres{
+
+width: 100%;
+display: flex;
+justify-content: right;
 
 
 
