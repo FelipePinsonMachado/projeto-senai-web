@@ -25,11 +25,28 @@ html, body {
     margin: 1px;
   }
 
-  .meioquadrado {
-    width: 100% ;
+  .paidetudo {
+  width: 100% ;
     background-color: rgb(253, 253, 253) ;
     display: flex;
-    align-items: center; flex-direction: row;
-    justify-content: space-between;
+    align-items: flex-end; flex-direction:center;
+  }
+  
+  
+  .esquerdo {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
     
   }
+
+.direita {
+  width:100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+
+
+}
