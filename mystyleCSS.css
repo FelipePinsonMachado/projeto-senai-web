@@ -22,51 +22,22 @@ html, body {
 }
 
 
-.paiesquerda {
-   background-color: white;
-   display: flex;
-   align-items: center;
-   flex-direction: column;
-}
-
-.filhoesqueda {
-    width: 50px;
-    height: 50px;
-    background-color: rgb(255, 0, 0);
-   margin: 1px;
-}
-
-.paimeio {
-    background-color: white;
-   display: flex;
-   align-items:left;
-   flex-direction: column;
-
-}
-
-.filhomeio{
-    width: 50px;
-    height: 50px;
-    background-color: rgb(25, 0, 255);
-   margin: 1px;
+  .conteudo{
+    background-image: url("imagem-fundo-banner.jpg");
+    height: 768px;
+    width: 100%;
+    background-size: cover;
     
-}
-
-.a{
-    background-color: white;
+   }
+   
+.texto{
     display: flex;
-    align-items: flex-end;
-    flex-direction: column;
-}
-
-.b{
-    width: 50px;
-    height: 50px;
-    background-color: rgb(0, 0, 0);
-   margin: 1px;
+    flex-direction:column;
+    height: 60%;
+    justify-content: space-around;
     
-}
 
+   }
 
 
 
