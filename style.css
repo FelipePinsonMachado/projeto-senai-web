@@ -6,10 +6,53 @@ html, body{
 
 
 
-h1 {
-    color: #000000;
+span {
+    color: #f3ebeb;
     font-family: Arial;
+    font-size: 300%;
 }
+
+
+p {
+
+color: red;
+font-family: Arial;
+font-size: 200%;
+
+
+
+}
+
+
+
+.conteudo{
+
+    background-image: url(imagem-fundo-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 768px;
+    display:flex;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+.nome{
+
+width: 800px;
+display: flex;
+justify-content: center;
+height:600px ;
+align-items: center;
+background-color: blue;
+
+}
+
+
+
 
  .header{
     width: 100%;
@@ -22,66 +65,20 @@ h1 {
 
 
 
-.logo{
-    
-     height: 40px;
-     
-     
-
-}
-
-.quadrado{
-
-height: 50px;
-background-color: blue;
-width: 50px;
-border: crimson solid 1px;
-
-
-
-
-
-}
-
-.conteudo {
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-
-
-
-}
-
 .um{
 
- width: 100%;   
+ width: 500px;   
  display: flex;
  justify-content: center;
+ height: 50px;
+
  
 
 }
 
-.dois{
-
-width: 100%;
-display: flex;
-justify-content: left;
 
 
 
-}
 
-.tres{
-
-width: 100%;
-display: flex;
-justify-content: right;
-
-
-
-}
 
 
