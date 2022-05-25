@@ -39,6 +39,43 @@ html, body {
 
    }
 
+   .banner{
+    background-image: url(../imagens/imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   }
+
+
+   .conteudobanner{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;
+   }
+
+   .textobanner{
+    display: flex;
+    flex-direction: column;
+    height: 60%;
+    justify-content: space-around;
+   }
+
+   .linhamarela{
+    border: solid 1px #FFAF00;
+   }
+
+   .subtextobanner{
+    font-family: 'Courier New', Courier, monospace;
+    color: #F9003D;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+   }
+
+   .mouse{
+    width: 80px;
+   }
 
 
 
