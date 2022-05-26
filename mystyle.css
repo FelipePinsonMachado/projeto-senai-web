@@ -2,39 +2,64 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-    width: 100%;
-    height: 80px ;
+
+header {
     background-color: red;
-    display:flex;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;   
+}
+
+.conteudo-header{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
     align-items: center;
-    
-    
 }
 
 .logo {
-    
     height: 40px ;
-    background-color: black;
     
+}
+
+.container-grid{
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.conteudo-banner{
+    display: flex;
+    align-items: flex-end;
+    height: 100%;   
+
 }
 
 
 
-.background {
+.banner{
     background-image: url(imagem-fundo-banner.jpg);
-    height: 768px;   
-    width: 100%;
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;   
     background-size: cover;
- }
+}
 
  .texto{
     display: flex;   
+    flex-direction: column;
+    height: 80%;
     justify-content: center;
-    font face="Arial" 
+
+    
 }
+
+
     
 
 
