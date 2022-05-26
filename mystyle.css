@@ -22,6 +22,7 @@ header {
     height: 40px;
     background-color: #FF0000;    
 }
+/** Estiilo e formataçao do conteudo do nosso banner*/
 .banner{
         background-image: url("imagem-fundo-banner.jpg");
         height: 768px;
@@ -31,9 +32,10 @@ header {
         align-items:flex-end;
         z-index: 999;      
 }
+/** posicionamento e alinhamento para determinar a posiçao dos elementos do texto*/
 .conteudo-banner{
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         height: 100%;
         color: #0000FF;
 
