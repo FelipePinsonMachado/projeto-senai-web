@@ -2,8 +2,9 @@ html, body {
     margin:0;
     padding:0;
     height:100%;
+    font-family: arial;
 }
-.header {
+header {
     width: 100%;
     height: 80px; 
     background-color: rgb(255, 0, 0);
@@ -11,25 +12,36 @@ html, body {
     align-items: center;
 }
 
+.conteudo-header {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
 .logo {
-   height: 40px;
+   height: 50px;
    background-color: rgb(0, 0, 0)
 }
 
-.conteudo {
+.banner {
   background-image: url(imagem-fundo-banner.jpg);
   height: 768px;
   background-repeat: no-repeat;
+  background-position: center;
   background-size: cover;
-  display: flex;
-  align-items: center;
-
 }
 
-.titulo {
-    width: 60%;
-    background-color: #ccc;
+.container-grid {
+    width: 80%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.conteudo-banner {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    align-items: flex-end;
+    height: 100%;
+    color: magenta;
 }
+
