@@ -2,33 +2,33 @@
 html, body {
     margin:0;
     padding: 0;
-    height: 100%;
+    font-family: Arial;
 }
 
-.header {
+header {
+   background-color: #ff0000;
+   height: 80px;
+   position: fixed;
+   width: 100%;
+   z-index: 999;
+}
 
-    width: 100%;
-    height: 100px;
-    background-color: rgb(255, 0, 0);
+.conteudo-header{
     display: flex;
+    justify-content: space-between;
+    height: 100%;
     align-items: center;
+
 }
 
 .logo {
     
     height:  50px;
-    background-color: rgb(255, 0, 0);
+    background-color: rgb(255, 0, 0);  
 
 }
 
 
-  .conteudo{
-    background-image: url("imagem-fundo-banner.jpg");
-    height: 768px;
-    width: 100%;
-    background-size: cover;
-    
-   }
    
 .texto{
     display: flex;
@@ -40,15 +40,24 @@ html, body {
    }
 
    .banner{
-    background-image: url(../imagens/imagem-fundo-banner.jpg);
+    background-image: url(imagem-fundo-banner.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+   
    }
 
 
-   .conteudobanner{
+
+   .container-grid{
+    width: 80%;
+    position: relative; 
+    margin: 0 auto;
+    
+   }
+
+   .conteudo-banner{
     display: flex;
     align-items: flex-end;
     height: 100%;
@@ -76,6 +85,8 @@ html, body {
    .mouse{
     width: 80px;
    }
+
+
 
 
 
