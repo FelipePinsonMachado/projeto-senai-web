@@ -5,6 +5,7 @@ html, body {
     font-family: Arial;
 }
 
+/** CABEÇARIO DO SITE*/
 header {
    background-color: #ff0000;
    height: 80px;
@@ -13,6 +14,7 @@ header {
    z-index: 999;
 }
 
+/** ESTILIZA O CABEÇARIO DO SITE*/
 .conteudo-header{
     display: flex;
     justify-content: space-between;
@@ -22,23 +24,14 @@ header {
 }
 
 .logo {
-    
     height:  50px;
     background-color: rgb(255, 0, 0);  
 
 }
 
-
    
-   .texto{
-    display: flex;
-    flex-direction:column;
-    height: 60%;
-    justify-content: space-around;
-    
 
-   }
-
+   /** ESTILIZA O FUNDO DO SITE*/
    .banner{
     background-image: url(imagem-fundo-banner.jpg);
     height: 768px;
@@ -49,7 +42,7 @@ header {
    }
 
 
-
+    /** CENTRALIZAR CONTEUDOS EM LUGARES DIFERENTES, SEM BORDA*/
    .container-grid{
     width: 80%;
     position: relative; 
@@ -57,6 +50,7 @@ header {
     
    }
 
+   /** DIV DA NAV, LOGO DO SENAI*/
    .conteudo-banner{
     display: flex;
     align-items: flex-end;
@@ -75,7 +69,8 @@ header {
     color: white;
    }
 
-   .banner-conteudo-texto{
+   /** PAI DOS CONTEUDOS DENTRO DO BANNER*/
+   .banner-conteudo-texto{ 
        display: flex;
         height: 60%;
         flex-direction: column;
@@ -91,7 +86,9 @@ header {
     border: solid 1px #FFAF00;
    }
 
-   .subtextobanner{
+
+   /** MODIFICA O ESTILO DO TEXTO DO BANNER */
+   .subtextobanner{ 
     font-family: 'Courier New', Courier, monospace;
     color: #F9003D;
     font-size: 50px;
@@ -100,10 +97,7 @@ header {
    }
 
 
-   
-       
-
-   nav{
+   nav{ 
     width: 50%;
     display: flex;
     justify-content: space-around;
@@ -111,11 +105,11 @@ header {
    }
 
 
-nav a{
+nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
     text-decoration: none;   
     height: 15px;
     font-family:Arial, Helvetica, sans-serif;
-       font-size: 15px;
-       color: white;
-       text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
   }
