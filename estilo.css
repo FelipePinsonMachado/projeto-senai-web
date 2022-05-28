@@ -9,11 +9,22 @@ html, body {
     font-family: Arial;
 }
 
+h1{
+      color:aliceblue;
+      font-family: Arial;
+      font-size: 80px;
+
+
+
+}
+
 /** margim de conteudo especifico, para centralizar na tela */
 .container-grid {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
-    max-width: 1200px;
+    
+    
+    
 }
 
 
@@ -32,6 +43,9 @@ header {
     justify-content: space-between;
     height: 100%;
     align-items: center;
+    
+    
+    
 }
 
 /**  tamanha da imagem do logo */
@@ -55,3 +69,62 @@ header {
     align-items: flex-end;
     height: 100%;
 }
+
+.banner-conteudo-texto{        
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+    
+}
+
+.linha-amarela{
+    border: solid 1px #FFAF00
+    
+
+
+}
+
+.sub-texto-banner{
+    font-family: 'Courier New', Courier, monospace;
+    color:#F9003D;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    
+
+}  
+
+
+.mouse{
+    width: 80px;
+
+
+
+}
+
+
+.menu-de-navegacao{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+
+
+
+}
+
+
+.menu-de-navegacao a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+
+
+
+}
+
