@@ -33,6 +33,7 @@ header {
   display: flex;
 }
 
+ /** ele alinha e centraliza a minha tela **/
 .container-grid {
     width: 80%;
     margin: 0 auto;
@@ -50,6 +51,7 @@ h1 {
     font-size: 80px;
 }
 
+  /**posicionamento e alinhamento para a posição dos elementos de texto **/
 .banner-conteudo-texto {
     height: 60%;
     display: flex;
@@ -61,6 +63,7 @@ h1 {
     border: solid 1px #ffAf00;
 }
 
+ /** muda o tipo de letra, ele deixa as letras maiuculas, coloca cor, deixa a letra um pouco mais grossa, e o tamanho da fonte **/
 .sub-texto-banner {
     font-family: 'Courier New', Courier, monospace;
     text-transform: uppercase;
@@ -79,6 +82,7 @@ h1 {
     justify-content: space-around;
 }
 
+ /**deixa as letras maiusculas e tira a linha do meu link **/
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
