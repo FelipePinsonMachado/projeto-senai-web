@@ -30,11 +30,11 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  display: flex;
 }
 
 .container-grid {
     width: 80%;
-    position: relative;
     margin: 0 auto;
 }
 
@@ -45,3 +45,41 @@ header {
     color: magenta;
 }
 
+h1 {
+    color: aliceblue;
+    font-size: 80px;
+}
+
+.banner-conteudo-texto {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.linha-amarela {
+    border: solid 1px #ffAf00;
+}
+
+.sub-texto-banner {
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    color: rgb(255, 0, 0);
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.mouse {
+    width: 80px;
+}
+
+.menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
