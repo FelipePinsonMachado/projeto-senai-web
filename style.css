@@ -40,13 +40,14 @@ html, body {
 
     
 }  
+ /** PARTE CENTRAL, SEM BORDA, MEIO DA TELA **/
 .container-grid {
     width: 80%;
     position: relative;
     margin: 0% auto;
-
+  
 }
-
+/** LOGO, IMAGEM DO SENAI, DIV DA NAV, CABEÇARIO, PRA NAVEGAR  **/
 .conteudo-header {
     display: flex;
     justify-content: space-between;
@@ -55,19 +56,19 @@ html, body {
 
 
 }
-
+ /**IMAGEM DO FUNDO, PARTE CENTRAL (MEIO) **/
 .conteudo-banner {
     display: flex;
     align-items: flex-end;
     height: 100%;
 }
 
-
+/**TAMANHO DE TODOS H1**/
 h1 {
     font-size: 70px;
 
 }
-
+/** DIV PARTE INFERIOR ESQUERDO **/
 .banner-conteudo-texto {
 
 
@@ -96,9 +97,10 @@ h1 {
     text-transform: uppercase;
     font-weight: 600;
     
+    
 }
 
-
+/** AREA DE NAVEGACAO, PESQUISA **/
  nav {
      width: 50%;
      display: flex;
