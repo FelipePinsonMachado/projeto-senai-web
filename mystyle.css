@@ -3,6 +3,7 @@ html, body {
     padding: 0;
     height: 100%;   
 }
+/** modifica a largura,altura,cor do fundo,alinha itens,define a posiçao fixa,sobrepoe o nosso cabeçario*/
 header { 
     width: 100%;
     height: 80px;
@@ -12,27 +13,28 @@ header {
     position: fixed;
     z-index: 1;
 }
-
+/** modifica os conteudos do nosso menu*/
 .menu {
     display: flex;
     width: 50%;
     align-items: center ;
     justify-content: space-around;
-    color: #FFFAFA;
+    
   
 }
-
+/** modifica o conteudo do header ou cabeçario*/
 .conteudo-header {
     display: flex;
     justify-content: space-between;
     height: 100%;
     align-items: center;
 }
+/** modifica nossa logo*/
 .logo {
     height: 40px;
     background-color: #FF0000;    
 }
-/** Estiilo e formataçao do conteudo do nosso banner*/
+/** Estilo e formataçao do nosso banner*/
 .banner {
     background-image: url("imagem-fundo-banner.jpg");
     height: 768px;
@@ -42,7 +44,7 @@ header {
     align-items:flex-end;
     z-index: 999;      
 }
-/** posicionamento e alinhamento para determinar a posiçao dos elementos do texto*/
+/** posicionamento e alinhamento para determinar a posiçao dos elementos do banner*/
 .conteudo-banner {
     display: flex;
     align-items: flex-end;
@@ -52,13 +54,13 @@ header {
 
 
 }
-
+/** alinha e centraliza o conteudo do nosso texto */
 .conteainer-grid {
     width: 90%;
     position: relative;
     margin: 0 auto;
 }
-
+/** agrupa o conteudo dos textos e imagens do nosso banner*/
 .banner-conteudo-texto {
     display: flex;
     height: 80%;
@@ -66,14 +68,14 @@ header {
     justify-content: space-around;
     
 }
-
+/** coloca uma linha amarela*/
 .linha-amarela {
     border: solid 1px #FFAF00;
 
 
 
 }
-
+/** define o sub texto do nosso banner*/
 .sub-texto-banner {
      font-family: Arial, Helvetica, sans-serif;
      color: #f9003d;
@@ -81,7 +83,7 @@ header {
      text-transform: uppercase;
      font-weight: 600;
 }
-
+/** define o tamanho da imagem do mouse*/
 .mouse{
     width: 80px;
 
@@ -90,7 +92,7 @@ header {
 
 
 
- 
+ /** formata a fonte, o tamanho da fonte, e a cor*/
 h1 {
     font-size: 80px;
     color: #FFFAFA;
@@ -99,11 +101,12 @@ h1 {
 }
 
 
-
+/** formata os links do nosso menu, sem mexer no resto do site*/
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
+    color: #FFFAFA;
 
 
 
