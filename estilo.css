@@ -85,7 +85,7 @@ header {
 
 
 }
-
+/** minha pagina web */
 .sub-texto-banner{
     font-family: 'Courier New', Courier, monospace;
     color:#F9003D;
@@ -116,7 +116,7 @@ header {
 
 }
 
-
+/** uma forma de alterar uma propriedade dentro de uma classe */
 .menu-de-navegacao a{
     text-decoration: none;
     color: white;
