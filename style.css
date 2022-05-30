@@ -14,7 +14,7 @@ html, body {
 }
 
 .logo {   
-    background-color:black;
+    background-color:black; 
     height: 50px;      
 }
 
@@ -119,3 +119,25 @@ nav a {
     
 }
 
+.botao-roxo {
+    font-size: 1em !important;
+    height: 45px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border:solid 1px #000000;
+    background-color: #a259f7;
+    justify-content: center;
+    box-shadow:4px 4px 6px #0000007a;
+
+
+}
+
+.animacao:hover {
+    font-size: 1.2em !important;
+    height: 50px;
+    width: 150px;
+    transition: 1s;
+    box-shadow: 4px 4px 6px black;
+
+}
