@@ -117,12 +117,40 @@ header {
 }
 
 /** uma forma de alterar uma propriedade dentro de uma classe */
+/** 1em é um tamanho que se altera de acordo com o tamanho da pagina*/
 .menu-de-navegacao a{
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1em;
     text-transform: uppercase;
+
+
+
+}
+
+.contate-nos{
+    height: 45px;
+    width: 150px;
+    background-color: #a259f7;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border: solid #000 2px;
+    box-shadow: 4px 4px 6px black;
+   
+
+
+
+}
+
+/**hover permite acontecer uma ação somente quando eu passo o mouse em cima*/
+/** o not serve para vc excluir uma classe da função que vc colocou no hover*/
+.menu-de-navegacao a:hover:not(.contate-nos){
+    transition: 1s;
+    font-size: 20px;
+    
+
 
 
 
