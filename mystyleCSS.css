@@ -113,3 +113,31 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
     color: white;
     text-transform: uppercase;
   }
+
+  .botao-roxo{
+    background-color: #7700ff;
+    height: 45px;
+    width: 150px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: solid 1px black ;
+    box-shadow: 4px 4px 6px #0000007a;
+}
+
+.animacao:hover{
+    font-size: 1em !important;
+    height: 50px;
+    line-height: 53px;
+    width: 160px;
+    transition: 0.5s;
+    box-shadow: 4px 4px 6px #0000007a;
+}
+
+.animacao3:hover{
+    font-size: 1.2em !important;
+    transition: 0.5s;
+    background-color: transparent;
+
+}
+
