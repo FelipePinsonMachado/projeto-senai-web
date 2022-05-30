@@ -18,10 +18,41 @@ header {
     display: flex;
     width: 50%;
     align-items: center ;
-    justify-content: space-around;
+    justify-content: space-around; 
     
-  
 }
+/** acrescentou o efeito no menu*/
+.menu a:hover:not(.botao-contato) {
+    font-size: 20px;
+    transition: 1s;
+
+
+
+}
+
+.botao-contato {
+    height: 45px;
+    width: 150px;
+    background-color:#A259F7;
+    text-align: center;
+    line-height:47px;
+    font-size: 1em;
+    border:solid 1px #080324;
+}
+.botao-contato-hover {
+    font-size: 1.2em;
+    height: 50px;
+    line-height: 53px;
+    width: 160px;
+    transform: 0.5s;
+    box-shadow: 5px 5px 6px  #0000007a;
+}
+
+
+
+
+
+
 /** modifica o conteudo do header ou cabeçario*/
 .conteudo-header {
     display: flex;
