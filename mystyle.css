@@ -1,81 +1,140 @@
+
 html, body {
     margin:0;
     padding: 0;
-    height: 100%;
+    font-family: Arial;
 }
 
-.header {
+/** CABEÇARIO DO SITE*/
+header {
+   background-color: #ff0000;
+   height: 80px;
+   position: fixed;
+   width: 100%;
+   z-index: 999;
+}
 
-    width: 100%;
-    height: 80px;
-    background-color: rgb(255, 0, 0);
+/** ESTILIZA O CABEÇARIO DO SITE*/
+.conteudo-header{
     display: flex;
+    justify-content: space-between;
+    height: 100%;
     align-items: center;
+
 }
 
-.logo { 
-    height: 40px;
-    background-color: rgb(255, 0, 0);
+.logo {
+    height:  50px;
+    background-color: rgb(255, 0, 0);  
+
 }
 
-    .quadrado {
-        width: 50px;
-        height: 50px;
-        background-color: rgb(47, 0, 255);
-        margin: 1%;
-    }
+   
 
-    .paidetudo{
-        width: 100%;
-        background-color: rgb(255, 255, 255);
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        justify-content: center;
-
-    }
+   /** ESTILIZA O FUNDO DO SITE*/
+   .banner{
+    background-image: url(imagem-fundo-banner.jpg);
+    height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+   
+   }
 
 
-    .quadrado {
-       
-        width: 50px;
-        background-color: blue;
-        height: 50px;
-        margin: 1px;
-        display: flex;
-       
-    }
-     .esquerdo {
-         width: 100%;
-         display: flex;
-         align-items: flex-start;
-         justify-content: flex-start;
-
-     }
-     
-     .direito {
-        width: 100%;
-        display: flex;
-        align-items: flex-end;
-        justify-content: flex-end;
-
-     }
-
-     .conteudo {
-         background-image: url(imagem-fundo-banner.jpg);
-         height: 769px;
-         background-repeat:no-repeat ;
-         background-size: cover;
-         
-     }
+    /** CENTRALIZAR CONTEUDOS EM LUGARES DIFERENTES, SEM BORDA*/
+   .container-grid{
+    width: 80%;
+    position: relative; 
+    margin: 0 auto;
     
-      
-   .texto {
+   }
+
+   /** DIV DA NAV, LOGO DO SENAI*/
+   .conteudo-banner{
+    display: flex;
+    align-items: flex-end;
+    
+    height: 100%;
+   }
+
+   .textobanner{
     display: flex;
     flex-direction: column;
-    height: 60%
-    justify-content:center;
+    height: 60%;
    }
-    
- 
-    
+
+   h1 {     
+    font-size: 70px;
+    color: white;
+   }
+
+   /** PAI DOS CONTEUDOS DENTRO DO BANNER*/
+   .banner-conteudo-texto{ 
+       display: flex;
+        height: 60%;
+        flex-direction: column;
+        justify-content: space-around;
+   }
+
+   .mouse{
+       width: 80px;
+   }
+
+
+   .linha{
+    border: solid 1px #FFAF00;
+   }
+
+
+   /** MODIFICA O ESTILO DO TEXTO DO BANNER */
+   .subtextobanner{ 
+    font-family: 'Courier New', Courier, monospace;
+    color: #F9003D;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+   }
+
+
+   nav{ 
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   }
+
+   nav:hover {
+      transition: 2s;
+      font-size: 20px; 
+
+
+nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
+    text-decoration: none;   
+    height: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  .botao-contato {
+    background-color: rgb(151, 27, 223);
+    height: 45px; 
+    width: 150px;
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   display: flex;
+
+  }
+
+
+  .botao-contato:hover {
+    font-size: 1.2em !important;
+    height: 50px;
+    line-height: 53px;
+    transition: 0.5s;
+    box-shadow: 4px 4px 6px black;
+    width: 160px;
