@@ -76,14 +76,34 @@ h1 {
     width: 80px;
 }
 
+ /** alinha as palavras no centro, o tamanho, **/
 .menu {
     width: 50%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
  /**deixa as letras maiusculas e tira a linha do meu link **/
 .menu a {
     text-decoration: none;
     text-transform: uppercase;
+    color: azure;
+}
+
+.menu a:hover:not(.quadrado) {
+    font-size: 30px;
+    transition: 1s;
+    color: black;
+}
+
+  /** faz um quadrado, coloca cor, alinha a palavra no centro **/
+.quadrado {
+    width: 150px;
+    height: 45px;
+    background-color: 	#8c00ff;
+    border: solid 3px rgb(0, 0, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
