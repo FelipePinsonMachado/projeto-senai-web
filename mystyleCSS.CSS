@@ -19,7 +19,7 @@ header {
     justify-content: space-between;
     height: 100%;
     align-items: center;
-
+    
 }
 
 .logo {
@@ -103,6 +103,12 @@ header {
     align-items: center;
    }
 
+   nav a:hover:not(botao-contato){
+    transition: 2s;
+    font-size: 1em;
+
+   }
+
 
 nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
     text-decoration: none;   
@@ -112,3 +118,22 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
     color: white;
     text-transform: uppercase;
   }
+  
+  .botao-contato { 
+    background-color: #A259F7;
+    height: 45px;
+    width: 150px;
+    border: solid 1px #080324;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     } 
+
+     .botao-contato:hover {
+    font-size: 1.2em !important;
+    height: 50px;
+    line-height: 53px;
+    width: 160px;
+    transition: 0.5s;
+    box-shadow: 4px 4px 6px #0000007a;
+    }
