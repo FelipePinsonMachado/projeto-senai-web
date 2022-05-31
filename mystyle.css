@@ -29,7 +29,7 @@ header {
 
 
 }
-
+/** define as formataçoes do nosso botao de contato*/
 .botao-contato {
     height: 45px;
     width: 150px;
@@ -142,6 +142,39 @@ h1 {
 
 
 }
+ 
+/**...... fim do nosso banner...... */
+
+.sobre-nos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    
+
+}
+
+.conteudo-1{
+     width: 50%;
+     height: 500px;
+     background-color: #000;
+     font-size: 40px;
+     text-transform: uppercase;  
+}
+.texto-1 {
+    font-size: 25px;
+    color: rgb(248, 244, 245);
+}
 
 
+.conteudo-2{
+    width: 50%;
+    height: 500px;
+    background-color: #FF0000;
 
+}
+
+.imagem-1{
+    width: 60%;
+    
+}
