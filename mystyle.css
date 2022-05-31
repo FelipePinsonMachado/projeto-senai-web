@@ -14,16 +14,7 @@ header {
    z-index: 999;
 }
 
-.quadrado{
-    width: 160px;
-    height: 45px;
-    background-color: #a259f7;
-    border: solid 1px black ;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    
-}
+
 
 /** ESTILIZA O CABEÇARIO DO SITE*/
 .conteudo-header{
@@ -114,7 +105,7 @@ header {
     justify-content: space-around;
     align-items: center;
    }
-   
+
    nav a:hover:not(.quadrado) {
     font-size: 15px;
     transition: 2s;
@@ -138,4 +129,54 @@ header {
   box-shadow: 4px 4px 6px #0000007a;
   }
 
-  
+  .quadrado{
+    width: 160px;
+    height: 45px;
+    background-color: #a259f7;
+    border: solid 1px black ;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  section{
+    display:flex;
+    flex-direction: row;
+}
+
+
+.carrinho{
+    height: 340px;
+    width: 950px;
+
+}
+
+
+.conteudo1{
+    background-color: purple;
+    width: 950px;
+    height: 400px;
+}
+.conteudo2{
+    background-color: cyan;
+    width: 960px;
+    height: 400px;
+}
+
+.cimadocarro{
+    color: white;
+}
+
+.partedebaixo{
+   background-color: #ff0000;
+   height: 80px;
+   width: 100%;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+
+}
+
+.textobaixo{
+    color: white
+}
