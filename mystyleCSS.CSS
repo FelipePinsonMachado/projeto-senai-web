@@ -137,3 +137,25 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
     transition: 0.5s;
     box-shadow: 4px 4px 6px #0000007a;
     }
+
+    .sobre-nos{
+        display: flex;
+        align-items: row;
+    }
+
+    .conteudo1{
+      background-color: red;
+      width: 50%;
+
+    }
+
+    .conteudo2 {
+     background-color: rgba(128, 0, 122, 0.945);
+     width: 50%;
+    
+    }
+
+   .imagem-carro {
+      width: 950px;
+      height: 400px;
+   } 
