@@ -145,7 +145,7 @@ header {
 }
 
 /**hover permite acontecer uma ação somente quando eu passo o mouse em cima*/
-/** o not serve para vc excluir uma classe da função que vc colocou no hover*/
+/** o not serve para vc excluir uma classe da função que vc colocou no hover*/-+
 .menu-de-navegacao a:hover:not(.contate-nos){
     transition: 1s;
     font-size: 20px;
@@ -155,4 +155,101 @@ header {
 
 
 }
+
+footer{
+    height: 80px;
+    background-color: #F9003D;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+footer span{
+    text-transform: uppercase;
+    font-size: 1em;
+    color:white;
+
+
+
+}
+
+.seção{
+    display:flex;
+    flex-direction: row;
+
+
+
+
+}
+
+.conteudo-um{
+    background-color: rgb(180, 116, 116);
+    width: 50%;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.conteudo-dois{
+    background-color: rgb(180, 116, 116);
+    width: 50%;
+    height: 800px;
+
+
+
+}
+
+.conteudo-um span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    color: white;
+    
+
+}
+
+.conteudo-um h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+
+}
+
+.descrição-do-senai{
+    height: 300px;
+    display: flex;
+    align-items: center;
+    width: 800px;
+    
+
+
+}
+
+.imagem-senai{
+    border: solid #000 2px;
+    display: flex;
+    align-items: center;
+    box-shadow: 4px 4px 6px #000;
+
+
+
+
+
+
+
+}
+
 
