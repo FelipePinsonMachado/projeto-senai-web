@@ -139,5 +139,70 @@ nav a {
     width: 150px;
     transition: 1s;
     box-shadow: 4px 4px 6px black;
+    line-height: 53px;
 
 }
+
+nav a:hover {
+
+    font-size: 1.2em !important;
+    transition: 1s;
+    background-color: transparent;
+}
+
+ section {
+
+    display: flex;
+    flex-direction: row;
+
+ }
+
+.sobre-nos {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+ .titulo-sobre-nos{
+
+
+    background-color: rgb(255, 0, 0);
+    display: flex;
+
+   
+}
+
+.texto-sobre-nos {
+
+    background-color: white;
+    display: flex;
+}
+
+.imagem-sobre-nos { 
+
+    
+    width: 20%;
+    display: flex;
+}
+
+.lado-esquerdo-sobre-nos {
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: nowrap;
+   
+}
+
+   
+
+
+}
+
+
+
+
+
