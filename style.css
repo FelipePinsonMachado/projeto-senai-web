@@ -35,7 +35,7 @@ html, body {
 }
 
  body {
-     font-family: Arial, Helvetica, sans-serif;
+     font-family: Arial, Helvetica, sans-serif; 
 
 
     
@@ -153,7 +153,7 @@ nav a:hover {
 
     display: flex;
     flex-direction: row;
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 
  }
 
@@ -173,6 +173,7 @@ nav a:hover {
 
     display: flex;
     color: rgb(255, 0, 0);
+    font-style: italic;
 
    
 }
@@ -184,7 +185,7 @@ nav a:hover {
 }
 
 .imagem-sobre-nos {  
-    width: 50%;
+    width: 80%;
     display: flex;
     border:solid 10px black;
     
@@ -199,6 +200,7 @@ nav a:hover {
     color: white;
     justify-content: center;
     align-items: center;
+    
 
 
 }
@@ -212,7 +214,8 @@ nav a:hover {
 
 .lado-direito-sobre-nos-conteudo {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+
     
 }
 .titulo-sobre-nos-direito {
@@ -227,6 +230,7 @@ nav a:hover {
 
     color: white;
     display: flex;
+
 }
 
 .container-sobre-nos {
