@@ -43,7 +43,6 @@ html, body {
  /** PARTE CENTRAL, SEM BORDA, MEIO DA TELA **/
 .container-grid {
     width: 80%;
-    position: relative;
     margin: 0% auto;
   
 }
@@ -154,6 +153,7 @@ nav a:hover {
 
     display: flex;
     flex-direction: row;
+    background-color: black;
 
  }
 
@@ -162,29 +162,33 @@ nav a:hover {
     width: 50%;
     display: flex;
     flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;    
+
 }
 
 
- .titulo-sobre-nos{
+ .titulo-sobre-nos-esquerdo{
 
-
-    background-color: rgb(255, 0, 0);
     display: flex;
+    color: rgb(255, 0, 0);
 
    
 }
 
-.texto-sobre-nos {
-
-    background-color: white;
+.subtitulo-sobre-nos {
     display: flex;
+    color: rgb(253, 173, 0);
+   font-size: 50px;
 }
 
-.imagem-sobre-nos { 
-
-    
-    width: 20%;
+.imagem-sobre-nos {  
+    width: 50%;
     display: flex;
+    border:solid 10px black;
+    
+    
 }
 
 .lado-esquerdo-sobre-nos {
@@ -192,17 +196,49 @@ nav a:hover {
     width: 50%;
     display: flex;
     flex-direction: column;
-    position: relative;
-    flex-wrap: nowrap;
-   
-}
-
-   
+    color: white;
+    justify-content: center;
+    align-items: center;
 
 
 }
 
+.lado-esquerdo-sobre-nos-conteudo {
+
+    display: flex;
+    flex-direction: column;
+    width: 90%;  
+}
+
+.lado-direito-sobre-nos-conteudo {
+    display: flex;
+    flex-direction: column;    
+    
+}
+.titulo-sobre-nos-direito {
+    color: rgb(255, 255, 255);
 
 
 
+
+}
+
+.texto-sobre-nos-esquerdo {
+
+    color: white;
+    display: flex;
+}
+
+.container-sobre-nos {
+    display: flex;
+
+
+}
+
+.final-borda {
+
+    background-color: red;
+    height: 80px;
+}
+ 
 
