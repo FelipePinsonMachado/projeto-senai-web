@@ -90,6 +90,7 @@ header {
     width: 90%;
     position: relative;
     margin: 0 auto;
+    
 }
 /** agrupa o conteudo dos textos e imagens do nosso banner*/
 .banner-conteudo-texto {
@@ -145,36 +146,72 @@ h1 {
  
 /**...... fim do nosso banner...... */
 
-.sobre-nos{
+/**  pai a partir daqui eo inicio do nossa section/formatamos a largura alinha itens da cor ao fundo e coloca a direçao dos nossos conteudos*/
+.sobre-nos-PAI {
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 100%;
-    
+    background-color: #080324;   
+}
+
+/** o conteudo 0 apenas adiciona o display flex a seus filhos e reeaproveitei p conteainer grid e seus comandos*/
+.conteudo-0 {
+    display: flex;  
 
 }
 
-.conteudo-1{
+/** o conteudo 1 cria uma div e determina suas formataçoes*/
+.conteudo-1 {
+
      width: 50%;
-     height: 500px;
-     background-color: rgb(22, 18, 90);
-     font-size: 40px;
-     text-transform: uppercase;  
+     height: 700px;
+     background-color:  	#080324;
+     font-size: 40px;    
 }
+
+/** o texto 1 determina as formataçoes do texto do nosso conteudo 1*/
 .texto-1 {
-    font-size: 25px;
-    color: rgb(248, 244, 245);
+    font-size: 45px;
+    color: rgb(243, 8, 8);
+    font-family: Arial, Helvetica, sans-serif;
+   
 }
 
+/** a imagem 1 determina a largura e altura do nosso conteudo 1*/
+.imagem-1 {
+    width: 50%;
+   
+}
 
-.conteudo-2{
+/* o conteudo 2 cria outra div para acrescentar textos e etc...**/
+.conteudo-2 {
     width: 50%;
     height: 500px;
-    background-color: #FF0000;
+    background-color: 		#080324;
+  
+
+}
+/** o texto 2 determina as formataçoes do texto do nosso conteudo 2*/
+.texto-2 {
+    color: #FFFAFA;
+    text-transform: uppercase;  
+    font-size: 35px; 
+}
+
+/** o texto 3 determina as formataçoes do texto do nosso conteudo 2*/
+.texto-3 {
+    width: 600px;
+    color: #FFAF00;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/** o texto 4 determina as formataçoes do nosso conteudo 2*/
+.texto-4 {
+    color: #FFFAFA;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 
 }
 
-.imagem-1{
-    width: 40%;
-    
-}
