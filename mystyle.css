@@ -10,6 +10,7 @@ header {
     background-color: rgb(255, 0, 0);
     display: flex;
     align-items: center;
+    position: fixed;
 }
 
 .conteudo-header {
@@ -91,6 +92,7 @@ h1 {
     color: azure;
 }
 
+/** Que todos os meus menus se mecham e com cor e o meu com o quadrado não **/
 .menu a:hover:not(.quadrado) {
     font-size: 30px;
     transition: 1s;
@@ -111,17 +113,38 @@ h1 {
 .sobre-nos {
     flex-direction: row;
     display: flex;
+    background-color: #000000;
 }
 
 .conteudo1 {
     width: 50%;
-    background-color: rgb(4, 255, 234);
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: aliceblue;
 }
 
 .conteudo2 {
     width: 50%;
-    background-color: #8c00ff;
+    color: aliceblue;
+}
+
+ /**coloquei cor no meu subtitulo **/
+.conteudo2 h2 {
+    color: rgb(4, 0, 255);
+}
+
+ /** alinhei e colori a minha escrita, coloquei tamanho e largura no meu quadrado **/
+.conteudos-final {
+    height: 80px;
+    width: 100%;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.sobre-nos-principal {
+    display: flex;
+
 }
