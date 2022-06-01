@@ -180,3 +180,15 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
 .textoporsche {
     color: rgb(215, 252, 9);
 }
+
+.barra {
+   height: 80px;
+   background-color: red;
+   color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   bottom: 0px;
+   width: 100%;
+
+}
