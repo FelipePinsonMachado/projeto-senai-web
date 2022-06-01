@@ -115,15 +115,15 @@ header {
     height: 15px;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 15px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-transform: uppercase;
   }
 
   .botao-contato {
-    background-color: rgb(151, 27, 223);
+    background-color: rgb(171, 74, 231);
     height: 45px; 
     width: 150px;
-    border: solid black 1px;
+    border: solid black 2px;
     display: flex;
     justify-content: center;
    align-items: center;
@@ -138,7 +138,7 @@ header {
     line-height: 53px;
     transition: 0.5s;
     box-shadow: 4px 4px 6px black;
-    width: 160px;
+    width: 150px;
     }
 
     .sobre-nós {
@@ -146,14 +146,35 @@ header {
      align-items: row;
     }
 
-    .conteudo1 {
-    background-color: rgb(78, 4, 53);
-    width: 50%;
+    .conteudo1 {  
+    background-color: rgb(7, 0, 17);
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;   
     }
 
     .conteudo2 {
-    background-color: rgb(121, 27, 90);    
+    background-color: rgb(7, 0, 17);    
     width: 50%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: white;   
+    } 
+
+    .lobo{
+      color: white;
+      
     }
 
+    .frauzinocabeçareta{
+      display: flex;
+      height: 500px;
+      width: 253px;
+      background-color: rgb(7, 0, 17);
     
+    }
