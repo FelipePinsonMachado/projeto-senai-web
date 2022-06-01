@@ -211,7 +211,15 @@ h1 {
 .texto-4 {
     color: #FFFAFA;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
-
 }
 
+.rodape{
+    display: flex;
+    align-items: center;
+    color: #FFFAFA;
+    width: 100%;
+    height: 80px;
+    background-color: #FF0000;
+    justify-content: center;
+
+}
