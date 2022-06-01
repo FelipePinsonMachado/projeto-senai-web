@@ -1,29 +1,30 @@
 * {
     margin: 0;
     padding: 0;
+
 }
+
 
 html, body {
     margin: 0;
     padding: 0;
     font-family: Arial;
+
 }
+
 
 h1{
       color:aliceblue;
       font-family: Arial;
       font-size: 80px;
 
-
-
 }
+
 
 /** margim de conteudo especifico, para centralizar na tela */
 .container-grid {
     width: 90%;
     margin: 0 auto;
-    
-    
     
 }
 
@@ -35,7 +36,9 @@ header {
     position: fixed;
     width: 100%;
     z-index: 99;
+
 }
+
 
 /**  alinhamento e posicionamento dos filhos do nosso header */
 .conteudo-header {
@@ -43,14 +46,14 @@ header {
     justify-content: space-between;
     height: 100%;
     align-items: center;
-    
-    
-    
+        
 }
+
 
 /**  tamanha da imagem do logo */
 .logo {
     height: 40px;
+
 }
 
 
@@ -61,30 +64,34 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+
 }
+
 
 /**  posicionamento e alinhamento para determinar a posição dos elementos de texto */
 .conteudo-banner {
     display: flex;
     align-items: flex-end;
     height: 100%;
+
 }
+
 
 .banner-conteudo-texto{        
     height: 80%;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-
     
 }
+
 
 .linha-amarela{
     border: solid 1px #FFAF00
-    
-
 
 }
+
+
 /** minha pagina web */
 .sub-texto-banner{
     font-family: 'Courier New', Courier, monospace;
@@ -93,14 +100,11 @@ header {
     text-transform: uppercase;
     font-weight: 600;
     
-
 }  
 
 
 .mouse{
     width: 80px;
-
-
 
 }
 
@@ -111,10 +115,8 @@ header {
     justify-content: space-around;
     align-items: center;
     
-
-
-
 }
+
 
 /** uma forma de alterar uma propriedade dentro de uma classe */
 /** 1em é um tamanho que se altera de acordo com o tamanho da pagina*/
@@ -125,9 +127,8 @@ header {
     font-size: 1em;
     text-transform: uppercase;
 
-
-
 }
+
 
 .contate-nos{
     height: 45px;
@@ -139,10 +140,8 @@ header {
     border: solid #000 2px;
     box-shadow: 4px 4px 6px black;
    
-
-
-
 }
+
 
 /**hover permite acontecer uma ação somente quando eu passo o mouse em cima*/
 /** o not serve para vc excluir uma classe da função que vc colocou no hover*/-+
@@ -150,11 +149,8 @@ header {
     transition: 1s;
     font-size: 20px;
     
-
-
-
-
 }
+
 
 footer{
     height: 80px;
@@ -166,90 +162,133 @@ footer{
 
 }
 
-
+/**texto do footer*/
 footer span{
     text-transform: uppercase;
     font-size: 1em;
     color:white;
 
-
-
 }
+
 
 .seção{
     display:flex;
     flex-direction: row;
-
-
-
+    background-color: rgb(29, 13, 29);
 
 }
 
+/** contem a imagem do portão do senai mais "Sobre os projetos"*/
 .conteudo-um{
-    background-color: rgb(180, 116, 116);
     width: 50%;
-    height: 800px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
+    justify-content: left;
+    
+}
+
+/** pai do conteudo-um*/
+.pai{
+    display: flex;
+    align-items: center;
     justify-content: center;
-    align-items: center;
-
-
-
+    flex-direction: column; 
 
 }
 
-.conteudo-dois{
-    background-color: rgb(180, 116, 116);
+/**contem as divs e os textos: participantes, mais de 80 alunos e lorem ipsum*/
+.conteudo-dois{    
     width: 50%;
-    height: 800px;
-
-
-
-}
-
-.conteudo-um span{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 25px;
-    color: white;
+    height: 1000px;
     
-
 }
 
-.conteudo-um h1{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 50px;
-    color: white;
+/** pai do conteudo dois todo*/
+.pai-dois{
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    flex-direction: column;
-
+    justify-content: center;
+    flex-direction: column; 
 
 }
 
-.descrição-do-senai{
-    height: 300px;
+/** div da palavra participantes*/
+.participantes{
+    width: 70%;
+    height: 223px;
     display: flex;
-    align-items: center;
-    width: 800px;
-    
-
+    align-items: flex-end;
 
 }
 
+/** contem a palavra participantes e suas formatações*/
+.participantes span{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+
+}
+
+/** div do subtitulo "mais de 80 alunos*/
+.subtitulo{
+    height: 120px;
+    width: 70%;
+
+}
+
+/** texto formatado mais de 80 alunos*/
+.subtitulo span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 47px;
+    color:yellow;
+    
+}
+
+/**contem a div do texto lorem ipsum...*/
+.texto{
+    height: 400px;
+    width: 70%;
+
+}
+
+/** contem a formatação do texto lorem ipsum*/
+.texto span{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+/** contem o texto sobre os nossos projetos alem de ser uma div*/ 
+.sobre-nos{
+    width: 850px;
+    margin:10px;
+    height: 150px;
+    display: flex;
+    align-items: flex-end;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-size: 65px;
+
+}
+
+/** div envolvendo a imagem do portão do senai*/
 .imagem-senai{
-    border: solid #000 2px;
+    background-image: url(senai-portao.jpeg);
+    background-size: cover;
+    width: 850px;
+    height: 700px;
+    
+}
+
+/** uma div que cobre tudo desde o conteudo um ate o conteudo */
+.conteudo-total{
     display: flex;
-    align-items: center;
-    box-shadow: 4px 4px 6px #000;
-
-
-
-
-
-
 
 }
+
+
+
 
 
