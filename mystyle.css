@@ -146,25 +146,38 @@ header {
 
 
 .carrinho{
-    height: 340px;
-    width: 950px;
+    height: 240px;
+    width: 500px;
+    display: flex;
+    
 
 }
 
 
 .conteudo1{
-    background-color: purple;
+    background-color: rgb(1, 0, 19);
     width: 950px;
     height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
 }
 .conteudo2{
-    background-color: cyan;
-    width: 960px;
+    background-color: rgb(1, 0, 19);
+    width: 700px;
     height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .cimadocarro{
-    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    color: #F9003D;
+  
 }
 
 .partedebaixo{
@@ -179,4 +192,21 @@ header {
 
 .textobaixo{
     color: white
+}
+
+.ladodocarro{
+    color: white
+}
+
+.ladodocarro2{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9bf00;
+       
+}
+.conteudo3{
+    background-color: rgb(1, 0, 19);
+    display: flex;
+    height: 400px;
+    width: 253px;
 }
