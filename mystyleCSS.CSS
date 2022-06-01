@@ -143,19 +143,40 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
         align-items: row;
     }
 
-    .conteudo1{
-      background-color: red;
+    .ladoesquerdo{
+      background-color: rgba(7, 0, 17);
       width: 50%;
-
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
     }
 
-    .conteudo2 {
-     background-color: rgba(128, 0, 122, 0.945);
+    .ladodireito {
+     background-color: rgba(7, 0, 17);
      width: 50%;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
     
     }
 
    .imagem-carro {
-      width: 950px;
-      height: 400px;
+      width: 90% ;
+      
    } 
+
+   .ladoesquerdoconteudo {
+       background-color: rgba(7, 0, 17);
+       width: 80%;
+   }
+
+   .ladodireitoconteudo {
+     background-color: rgba(7, 0, 17);
+    width: 80%;
+}
+
+.textoporsche {
+    color: rgb(215, 252, 9);
+}
