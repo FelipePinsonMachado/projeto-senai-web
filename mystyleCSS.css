@@ -142,35 +142,130 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
 }
 
 section{
-    display: flex;
+    display:flex;
     flex-direction: row;
-    
 }
 
-.sobre-nos{
-    width: 50%;
+
+.carrinho{
+    height: 240px;
+    width: 500px;
     display: flex;
+    
+
+}
+
+
+.conteudo1{
+    background-color: rgb(1, 0, 19);
+    width: 950px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.conteudo2{
+    background-color: rgb(1, 0, 19);
+    width: 700px;
+    height: 400px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
     flex-direction: column;
 }
 
-.titulo-sobre-nos{
-    background-color: rgb(0, 0, 0);
-    display: flex;
+.cimadocarro{
+    font-family: 'Courier New', Courier, monospace;
+    color: #F9003D;
+  
 }
 
-.texto-sobre-nos{
-    background-color: white;
-    display: flex;
+.partedebaixo{
+   background-color: #ff0000;
+   height: 80px;
+   width: 100%;
+   align-items: center;
+   display: flex;
+   justify-content: center;
+
 }
 
-.imagem-sobre-nos{
-    width: 20%;
-    display: flex;
+.textobaixo{
+    color: white
 }
 
-.texto-senai-lado-esquerdo{
-    width: 50%;
+.ladodocarro{
+    color: white
+}
+
+.ladodocarro2{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: #f9bf00;
+       
+}
+.conteudo3{
+    background-color: rgb(1, 0, 19);
     display: flex;
+    height: 400px;
+    width: 253px;
+}
+
+.informaçoes{
+    background-color: rgb(1, 0, 19);
+    display:flex;
+    justify-content:space-around;
+    height: 100px;
+}
+
+.quadrado11{
+     
+    border: solid 3px purple;
+    height: 50px;
+    width: 200px;
+}
+
+.quadrado22{
+     
+    border: solid 3px purple;
+    height: 50px;
+    width: 200px;
+
+}
+
+.quadrado33{
+    border: solid 3px purple;
+    height: 50px;
+    width: 200px;
+}
+
+.saopaulo{
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 10px;
+}
+
+.dias{
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 10px;
+}
+
+.desafios{
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 30px;
 }
 
 
