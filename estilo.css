@@ -288,7 +288,66 @@ footer span{
 
 }
 
+.conteudo-tres{
+    width: 100%;
 
+}
+
+.conteudo-total-dois{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: row;
+    
+    
+
+}
+
+
+
+.quadrados-conteudo-tres{
+
+display: flex;
+justify-content: space-between;
+flex-direction: row;
+
+background-color: aqua;
+width: 100%;
+
+
+}
+
+.local{
+    width: 250px;
+    height: 50px;
+    border: solid 3px #a259f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.duração{
+    width: 250px;
+    height: 50px;
+    border: solid 3px #a259f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+
+.desafios{
+    width: 250px;
+    height: 50px;
+    border: solid 3px #a259f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:20px
+
+}
 
 
 
