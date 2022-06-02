@@ -211,7 +211,69 @@ h1 {
 .texto-4 {
     color: #FFFAFA;
     font-family: Georgia, 'Times New Roman', Times, serif;
+   
 }
+
+.segunda-section {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image:url(imagem-fundo-section2.jpg) ;
+    height: 200px;
+    
+
+}
+
+.quadrados-pai{
+  
+   
+   
+}
+
+.quadrado-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 50px;
+    border: solid;
+    color: blueviolet;
+    
+   
+
+
+}
+
+.texto{
+    color: #FFFAFA;
+    text-transform: uppercase;
+
+}
+
+.texto-quadrado-1{
+     color: #FFFAFA;
+
+}
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**  FIM DA NOSSA SECTION E DE SUA FORMATAÇAO*/
+
+/** determina as formataçoes do nosso footer/rodape, como largura,altura,cor,alinhamento.*/
 
 .rodape{
     display: flex;
@@ -222,5 +284,5 @@ h1 {
     background-color: #FF0000;
     justify-content: center;
     bottom: 0px;
-    
+
 }
