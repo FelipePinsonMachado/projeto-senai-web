@@ -210,3 +210,60 @@ header {
     height: 400px;
     width: 253px;
 }
+
+.informaçoes{
+    background-color: rgb(1, 0, 19);
+    display:flex;
+    justify-content:space-around;
+    height: 100px;
+}
+
+.quadrado11{
+     
+    border: solid 3px purple;
+    height: 50px;
+    width: 200px;
+}
+
+.quadrado22{
+     
+    border: solid 3px purple;
+    height: 50px;
+    width: 200px;
+
+}
+
+.quadrado33{
+    border: solid 3px purple;
+    height: 50px;
+    width: 200px;
+}
+
+.saopaulo{
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 10px;
+}
+
+.dias{
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    height: 10px;
+}
+
+.desafios{
+    color: purple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    height: 30px;
+}
+
+
