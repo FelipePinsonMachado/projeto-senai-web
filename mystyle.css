@@ -135,7 +135,7 @@ h1 {
 }
 
  /** alinhei e colori a minha escrita, coloquei tamanho e largura no meu quadrado **/
-.conteudos-final {
+footer {
     height: 80px;
     width: 100%;
     background-color: rgb(255, 0, 0);
@@ -147,4 +147,25 @@ h1 {
 .sobre-nos-principal {
     display: flex;
 
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-image: url(imagem-fundo-info.jpg);
+}
+
+.bloco {
+    width: 250px;
+    height: 100px;
+    color: aliceblue;
+}
+
+.conteudo-bloco {
+    height: 45px;
+    border: solid 3px rgb(238, 255, 0);
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
