@@ -195,6 +195,82 @@ header {
 
     .quadradinho {
       border:solid red
-   
+  }
+
+
+.quadradoestado {
+ display: flex;
+ width: 10%;
+ height: 70px;
+ border: solid 1px rgb(145, 62, 255);
+ align-items: center;
+ justify-content: center;
+ background-color: transparent;
+ color: rgb(193, 59, 255);
+} 
+
+
+.quadradodias {
+  display: flex;
+  width: 10%;
+  height: 70px;
+  border: solid 1px rgb(145, 62, 255);
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  color: rgb(193, 59, 255);
+ }  
+
+
+ .quadradodesafio {
+  display: flex;
+  width: 10%;
+  height: 70px;
+  border: solid 1px rgb(145, 62, 255);
+  align-items: center;
+  justify-content: center;  
+  background-color: transparent;
+  color: rgb(193, 59, 255);
+ }  
+
+ .texto1 {
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ justify-content: center;
+ }
+
+ .texto2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  .texto3  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     }
 
+    .square {
+    display: flex;
+    flex-direction: row;
+  justify-content: center;
+  background-image: url(fundodeinformação.jpg);
+    }
+
+  .conteudo-square {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row ;
+  color: aliceblue;
+  }
+
+
+
+  .squarequadradocaixabox {
+  border: solid 3px rgb(110, 2, 110);
+  width: 250px;
+  }
