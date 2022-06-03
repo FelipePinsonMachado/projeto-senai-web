@@ -145,7 +145,7 @@ header {
 
 /**hover permite acontecer uma ação somente quando eu passo o mouse em cima*/
 /** o not serve para vc excluir uma classe da função que vc colocou no hover*/-+
-.menu-de-navegacao a:hover:not(.contate-nos){
+.menu-de-navegacao a:hover{
     transition: 1s;
     font-size: 20px;
     
@@ -241,7 +241,7 @@ footer span{
 .subtitulo span{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 47px;
-    color:yellow;
+    color:orange;
     
 }
 
@@ -288,37 +288,35 @@ footer span{
 
 }
 
+
 .conteudo-tres{
     display: flex;
     justify-content: space-between;
 
-
 }
-
 
 
 .info{
-display: flex;
-width: 100%;
-background-image: url(imagem-fundo-info.jpg);
-
-
-
+    display: flex;
+    width: 100%;
+    background-image: url(imagem-fundo-info.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
-
 
 
 .sobre-local{
     color: white;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;    
     display: flex;
     flex-direction: column;
     align-items: left;
     margin: 20px;
+
 }
+
 
 .local{
     width: 250px;
@@ -335,17 +333,14 @@ background-image: url(imagem-fundo-info.jpg);
 .sobre-duração{
     color: white;
     font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    
+    font-family: Arial, Helvetica, sans-serif;    
     display: flex;
     flex-direction: column;
     align-items: left;
     margin: 20px;
     
-
-
-
 }
+
 
 .duração{
     width: 250px;
@@ -363,18 +358,13 @@ background-image: url(imagem-fundo-info.jpg);
     color: white;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
-    
     display: flex;
     flex-direction: column;
     align-items: left;
     margin: 20px;
-    
-    
-
-
-
 
 }
+
 
 .desafios{
     width: 250px;
@@ -385,8 +375,71 @@ background-image: url(imagem-fundo-info.jpg);
     justify-content: center;
     align-items: center;
     
+}
+
+
+.endereço{
+    display: flex;
+    width: 100%;
+    background-image: url(imagem-fundo-info.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content:center;
+
+}
+
+
+.sobre-localização{
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 47px;
+    color: orange;
+    margin: 25px;
+
+}
+
+
+.localização{
+    height: 200px;
+    width: 750px;
+    border: solid 3px #a259f7;
+    color: #a259f7;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+    background-color: black;
+    font-size: 20px;
+    flex-direction: row;   
+        
+}
+
+
+.localização-texto{
+    background-color: blue;
+    margin: 10px;
+
+}
+
+
+.mapa-senai{
+    background-image: url(mapa-senai.png);
+    background-size: cover;
+    background-color: blue;
+    width: 250px;
+    height: 230px;
+    position: relative;
+    right:10px;
+    top: -30px;
     
 }
 
 
+.localização span{
+    width: 40%;
+    margin: 30px;
+
+}
 
