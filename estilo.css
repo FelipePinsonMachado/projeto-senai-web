@@ -289,31 +289,35 @@ footer span{
 }
 
 .conteudo-tres{
-    width: 100%;
-
-}
-
-.conteudo-total-dois{
-    display: flex; 
+    display: flex;
     justify-content: space-between;
-    flex-direction: row;
-    
-    
+
 
 }
 
 
 
-.quadrados-conteudo-tres{
-
+.info{
 display: flex;
-justify-content: space-between;
-flex-direction: row;
-
-background-color: aqua;
 width: 100%;
+background-image: url(imagem-fundo-info.jpg);
 
 
+
+
+}
+
+
+
+.sobre-local{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
 }
 
 .local{
@@ -323,9 +327,25 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    color: #a259f7;
+    
 }
 
+
+.sobre-duração{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+    
+
+
+
+}
 
 .duração{
     width: 250px;
@@ -334,19 +354,38 @@ width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    color: #a259f7;
+    
 }
 
+
+.sobre-desafios{
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    margin: 20px;
+    
+    
+
+
+
+
+}
 
 .desafios{
     width: 250px;
     height: 50px;
     border: solid 3px #a259f7;
+    color: #a259f7;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:20px
-
+    
+    
 }
 
 
