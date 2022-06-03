@@ -211,59 +211,70 @@ header {
     width: 253px;
 }
 
-.informaçoes{
-    background-color: rgb(1, 0, 19);
+.info {
     display:flex;
     justify-content:space-around;
-    height: 100px;
+    align-items: center;
+    background-color: rgb(1, 0 ,19);
+    padding-bottom: 50px;
+    background-image: url(imagem-fundo-info.jpg);
 }
 
-.quadrado11{
-     
-    border: solid 3px purple;
-    height: 50px;
+.conteudo-info{
+    color:white;
     width: 200px;
+    display: flex;
+    flex-direction: column;
 }
 
-.quadrado22{
-     
-    border: solid 3px purple;
-    height: 50px;
-    width: 200px;
-
-}
-
-.quadrado33{
-    border: solid 3px purple;
-    height: 50px;
-    width: 200px;
-}
-
-.saopaulo{
+.texto-info {
     color: purple;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 20px;
-    height: 10px;
+    width: 250px;
+    height: 50px;
+    border: solid 3px purple;
+    font-family: 'Impact', fantasy
+  
 }
 
-.dias{
-    color: purple;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    height: 10px;
+.texto{
+    font-family: 'Impact', fantasy
 }
 
-.desafios{
-    color: purple;
+.endereco{
+    background-color: rgb(1, 0 ,19);
     display: flex;
-    align-items: center;
+    background-image: url(imagem-fundo-info.jpg);   
     justify-content: center;
-    margin: 10px;
-    height: 30px;
 }
+
+.conteudoend{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 50px;
+    color: rgb(255, 196, 0)
+}
+.textoend{
+    border: solid 3px rgb(255, 255, 255);
+    height: 150px;
+    align-items: center;
+    display: flex;
+    
+}
+
+.textoend2{
+    color:white;
+    width: 300px;
+   
+   
+}
+
+.mapa{}
+
+  
+    
 
 
