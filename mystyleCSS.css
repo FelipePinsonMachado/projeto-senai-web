@@ -141,131 +141,176 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
 
 }
 
-section{
-    display:flex;
+section {
+
+    display: flex;
     flex-direction: row;
+    background-color: rgb(0, 0, 0);
+
+ }
+
+.sobre-nos {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;    
+
 }
 
 
-.carrinho{
-    height: 240px;
-    width: 500px;
+ .titulo-sobre-nos-esquerdo{
+
     display: flex;
+    color: rgb(255, 0, 0);
+    font-style: italic;
+
+   
+}
+
+.subtitulo-sobre-nos {
+    display: flex;
+    color: rgb(253, 173, 0);
+   font-size: 50px;
+}
+
+.imagem-sobre-nos {  
+    width: 80%;
+    display: flex;
+    border:solid 10px black;
+    
+    
+}
+
+.lado-esquerdo-sobre-nos {
+    
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
     
 
+
 }
 
+.lado-esquerdo-sobre-nos-conteudo {
 
-.conteudo1{
-    background-color: rgb(1, 0, 19);
-    width: 950px;
-    height: 400px;
     display: flex;
+    flex-direction: column;
+    width: 90%;  
+}
+
+.lado-direito-sobre-nos-conteudo {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.titulo-sobre-nos-direito {
+    color: rgb(255, 255, 255);
+
+
+
+
+}
+
+.texto-sobre-nos-esquerdo {
+
+    color: white;
+    display: flex;
+
+}
+
+.container-sobre-nos {
+    display: flex;
+
+
+}
+
+.final-borda {
+
+    background-color: red;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+ 
+
+.info{ 
+    background-image:url(imagem-fundo-info.jpg);
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.conteudoinfo{
+    margin: 50px;
+    height: 250px;
+    width: 20%;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    font-size: 25px;
+    margin: 20px;   
+}
+
+.bordainfo{
+    display: flex; 
+    width: 100%;
+    height: 80px;
+    border: solid 1px rgb(132, 0, 255);
     align-items: center;
     justify-content: center;
-    flex-direction: column;
+    background-color: transparent;  
+
+
+}
     
-}
-.conteudo2{
-    background-color: rgb(1, 0, 19);
-    width: 700px;
-    height: 400px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
-}
 
-.cimadocarro{
-    font-family: 'Courier New', Courier, monospace;
-    color: #F9003D;
-  
-}
-
-.partedebaixo{
-   background-color: #ff0000;
-   height: 80px;
+.pai-mapa{
+   color: rgb(255, 255, 255);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-image: url(imagem-fundo-info.jpg);
    width: 100%;
    align-items: center;
-   display: flex;
-   justify-content: center;
-
+   justify-content:center ;
 }
 
-.textobaixo{
-    color: white
-}
-
-.ladodocarro{
-    color: white
-}
-
-.ladodocarro2{
-
-    font-family: 'Courier New', Courier, monospace;
-    color: #f9bf00;
-       
-}
-.conteudo3{
-    background-color: rgb(1, 0, 19);
+.quadrado-endereço{
+    border: solid 3px #cc00ff;
     display: flex;
-    height: 400px;
-    width: 253px;
-}
-
-.informaçoes{
-    background-color: rgb(1, 0, 19);
-    display:flex;
-    justify-content:space-around;
-    height: 100px;
-}
-
-.quadrado11{
-     
-    border: solid 3px purple;
-    height: 50px;
-    width: 200px;
-}
-
-.quadrado22{
-     
-    border: solid 3px purple;
-    height: 50px;
-    width: 200px;
-
-}
-
-.quadrado33{
-    border: solid 3px purple;
-    height: 50px;
-    width: 200px;
-}
-
-.saopaulo{
-    color: purple;
-    display: flex;
-    align-items: center;
     justify-content: center;
-    margin: 20px;
-    height: 10px;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-image: url(imagem-fundo-info.jpg);
+    color: rgb(255, 255, 255);
+    
+
 }
 
-.dias{
-    color: purple;
+.imagem-mapa{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 20px;
-    height: 10px;
+    align-items: flex-end;
+    width: 29%;
+    position: relative;
+    top: -10px;
+   
 }
 
-.desafios{
-    color: purple;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 10px;
-    height: 30px;
-}
+
+
+
+  
 
 
