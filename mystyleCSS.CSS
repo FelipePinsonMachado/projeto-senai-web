@@ -248,14 +248,14 @@ background-image: url(imagem-fundo-banner2.jpg);
     flex-direction: column;
     color: rgb(253, 229, 7);
     padding-bottom: 50px;
-    
 }
 
 .textoend {
     border:solid 3px  rgb(81, 3, 83);
     height: 150px;
     align-items: center;
-    display: flex
+    display: flex;
+    justify-content: space-around;
 
 }
 
@@ -263,4 +263,17 @@ background-image: url(imagem-fundo-banner2.jpg);
     color: white;
     width: 300px;
 
+}
+
+.mapa {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    position: relative;
+    top: -100px;
+}
+
+.marginsection{
+    margin-bottom: 100px;
+    margin-top: 50px;
 }
