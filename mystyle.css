@@ -214,10 +214,9 @@ header {
 .info {
     display:flex;
     justify-content:space-around;
-    align-items: center;
     background-color: rgb(1, 0 ,19);
     padding-bottom: 50px;
-    background-image: url(imagem-fundo-info.jpg);
+  
 }
 
 .conteudo-info{
@@ -246,7 +245,6 @@ header {
 .endereco{
     background-color: rgb(1, 0 ,19);
     display: flex;
-    background-image: url(imagem-fundo-info.jpg);   
     justify-content: center;
 }
 
@@ -262,19 +260,23 @@ header {
     height: 150px;
     align-items: center;
     display: flex;
+    justify-content: space-around;
     
 }
 
 .textoend2{
     color:white;
     width: 300px;
+    font-family: 'Courier New', Courier, monospace;
    
    
 }
 
-.mapa{}
-
-  
-    
-
-
+.mapa{
+    width: 200px;
+    height: 200px;
+    display: flex;
+    border: solid 3px rgb(238, 255, 3);
+    position: relative;
+    top: -40px;
+}
