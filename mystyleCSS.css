@@ -250,7 +250,7 @@ section {
 
 }
 
-.conteudoinfo{
+.conteudoinfo{ /** MUDA O CONTEUDO SOBRE OS PROJETOS*/
     margin: 50px;
     height: 250px;
     width: 20%;
@@ -269,25 +269,31 @@ section {
     align-items: center;
     justify-content: center;
     background-color: transparent;  
+    color: rgb(132, 0, 255);
 
 
 }
     
 
 .pai-mapa{
-   color: rgb(255, 255, 255);
+    color: rgb(132, 0, 255);
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
    background-image: url(imagem-fundo-info.jpg);
-   width: 100%;
+   width: 70%;
    align-items: center;
    justify-content:center ;
+   font-family: 'Courier New', Courier, monospace;
+
+   
+   
+
 }
 
-.quadrado-endereço{
-    border: solid 3px #cc00ff;
+.quadrado-endereço{ /** MUDA OS CONTEUDOS DENTRO DA BORDINHA DO ENDEREÇO*/
+    border: solid 3px rgb(132, 0, 255);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -295,6 +301,7 @@ section {
     flex-direction: row;
     background-image: url(imagem-fundo-info.jpg);
     color: rgb(255, 255, 255);
+    height: 200px;
     
 
 }
@@ -304,10 +311,13 @@ section {
     align-items: flex-end;
     width: 29%;
     position: relative;
-    top: -10px;
+    top: -40px;
    
 }
 
+.fundopartemapa{
+    background-image: url(imagem-fundo-info.jpg)
+}
 
 
 
