@@ -159,13 +159,55 @@ footer {
 .bloco {
     width: 250px;
     height: 100px;
-    color: aliceblue;
+    color: rgb(250, 250, 250);
 }
 
 .conteudo-bloco {
-    height: 45px;
-    border: solid 3px rgb(238, 255, 0);
+    height: 60px;
+    border: solid 3px rgb(183, 0, 255);
     align-items: center;
     display: flex;
     justify-content: center;
+    width: 75%;
+}
+
+.endereco {
+    display: flex;
+    justify-content: center;
+    background-image: url(imagem-fundo-info.jpg);
+    height: 500px;
+}
+
+.local {
+    width: 40%;
+    height: 100px;
+    color: rgb(251, 255, 0);
+    display: flex;
+    flex-direction: column;
+}
+
+.contato {
+    height: 150px;
+    border: solid 3px rgb(183, 0, 255);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    color: seashell;
+}
+
+.conteudoendereco {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagem-mapa {
+    position:  relative;
+    bottom: 80px;
+}
+
+.texto-endereco {
+    margin: 30px;
+    color: rgb(255, 0, 106);
 }
