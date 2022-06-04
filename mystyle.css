@@ -213,7 +213,9 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
+/**   fim da nosssa section primeira section   */
 
+/**   inicio da nossa segunda section   */
 .segunda-section {
     display: flex;
     align-items: center;
@@ -225,9 +227,11 @@ h1 {
 
 }
 
-.quadrados-pai{
-  
-   
+/** formata o conteudo info*/
+.conteudo-info{
+    display: flex;
+    flex-direction: column;
+    
    
 }
 
@@ -240,23 +244,130 @@ h1 {
     border: solid;
     color: blueviolet;
     
+}
+
+.texto {
+    color: #FFFAFA;
+    text-transform: uppercase;
+}
+
+.texto-quadrado-1{
+    color: blueviolet;
+}
+
+/**  formata o conteudo info 2 */
+.conteudo-info-2{
+    display: flex;
+    flex-direction: column;
    
 
 
 }
+.quadrado-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border: solid;
+    color: #A259F7;
+    margin: 0 auto;
 
-.texto{
+}
+
+.texto-2 {
     color: #FFFAFA;
-    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.texto-quadrado-2 {
+    color: blueviolet;
+}
+
+
+/**  formata os conteudos info 3*/
+.comteudo-info-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.quadrado-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 50px;
+    border: solid;
+    color: blueviolet;
+}
+
+.texto-33{
+    color: #FFFAFA;
+    font-size: 15px;
+}
+
+.texto-quadrado-3 {
+    color:blueviolet
+}
+
+/**    fim da nossa segunda section*/
+
+.terceira-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(imagem-fundo-section2.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+
+}     
+
+.conteudo-section-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 50px;
+    
+    
 
 }
 
-.texto-quadrado-1{
-     color: #FFFAFA;
+
+.endereço {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid;
+    color: blueviolet;
+    width: 750px;
+    height: 150px;
 
 }
-      
 
+.localizaçao-2 {
+    width: 200px;
+
+
+}
+
+
+.mapa {
+    position: relative;
+    top: -70px;
+    bottom: -20px;
+    right: -50px;
+ 
+ }
+ 
+
+.texto-do-endereço {
+    color: #FFAF00;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 
@@ -275,7 +386,7 @@ h1 {
 
 /** determina as formataçoes do nosso footer/rodape, como largura,altura,cor,alinhamento.*/
 
-.rodape{
+.rodape {
     display: flex;
     align-items: center;
     color: #FFFAFA;
