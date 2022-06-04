@@ -29,7 +29,8 @@ h1{
 }
 
 
-/**  estilo e formatação do conteudo do header da pagina web */
+/**  estilo e formatação do conteudo do header da pagina web, z index serve para dizer que a imagem que estiver
+com maior index vai aparecer na frente da outra*/
 header {
     background-color: #F9003D;
     height: 80px;
@@ -57,7 +58,10 @@ header {
 }
 
 
-/**  Estilo e formatação do conteudo do nosso banner */
+/**  Estilo e formatação do conteudo do nosso banner
+cover serve para a imagem cobrir toda a div
+position é pra centralizar a imagem
+no repeat serve para a imagem nao ficar repetindo ao longo da div */
 .banner {
     background-image: url(imagem-fundo-banner.jpg);
     height: 768px;
@@ -92,7 +96,8 @@ header {
 }
 
 
-/** minha pagina web */
+/** minha pagina web uppercase serve para deixar todo o texto dentro da div em maiusculo
+font-weight altera a expessura da fonte*/
 .sub-texto-banner{
     font-family: 'Courier New', Courier, monospace;
     color:#F9003D;
@@ -129,7 +134,7 @@ header {
 
 }
 
-
+/** box shadow permit fazer a imagem ficar mais destacada, com uma sombra*/
 .contate-nos{
     height: 45px;
     width: 150px;
@@ -417,13 +422,8 @@ footer span{
 }
 
 
-.localização-texto{
-    background-color: blue;
-    margin: 10px;
-
-}
-
-
+/** position permite vc mexer na posição de de uma div ou qualquer outra coisa
+Top: pra cima; botton: para baixo; left: esquerda; right: direita;*/
 .mapa-senai{
     background-image: url(mapa-senai.png);
     background-size: cover;
@@ -440,6 +440,6 @@ footer span{
 .localização span{
     width: 40%;
     margin: 30px;
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

@@ -2,7 +2,7 @@
 <html lang="pt-br">
     <head>
         <title>Minha Primeira Pagina</title>
-        <link rel="stylesheet" href="estilo.css">
+        <link rel="stylesheet" href="estilo.css"> <!-- stylesheet é padrao para css de estilos e o href vc vai colocar o link do seu css  -->
     </head>
     <body>
         <header>
@@ -11,8 +11,8 @@
                    <nav class="menu-de-navegacao"> 
                        <a href="#">Início</a>
                        <a href="#sobre-nos">Sobre</a>
-                       <a href="" class="botao-contato:hover">Endereço</a>  
-                       <a href="" class="contate-nos"> Contate-nos </a>
+                       <a href="#endereço" class="botao-contato:hover">Endereço</a>  
+                       <a href="mailto:kevinmatthewsrs@hotmail.com" class="contate-nos"> Contate-nos </a> <!-- "mailto" para vc colocar seu email e "?subject=" para escrever o assunto do email -->
                    </nav>
             </div>
         </header>
@@ -70,7 +70,7 @@
                         </div>
             </div>
         </section>
-        <section class="endereço">
+        <section id ="endereço" class="endereço">
             <div class="sobre-localização">
                   Endereço:
                 <div class="localização"> 
@@ -80,7 +80,7 @@
             </div>
         </section>
             <footer>
-               <span>2022-escola senai</span>
+                <span>Copyright&copy; 2022 - Escola Senai de Informática</span>
             </footer>
     </body>
 </html>
