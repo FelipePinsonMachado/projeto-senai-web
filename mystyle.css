@@ -265,7 +265,7 @@ header {
   display: flex;
   justify-content: space-between;
   flex-direction: row ;
-  color: aliceblue;
+  color:  aliceblue;
   }
 
 
@@ -274,3 +274,46 @@ header {
   border: solid 3px rgb(110, 2, 110);
   width: 250px;
   }
+
+
+  .squareconteudo {
+  border: solid 3px rgb(110, 2, 110);
+  width: 250px; 
+ }
+
+ .conteudoend {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  color: #FFAF00;
+  padding-bottom: 50px;
+ }
+
+
+ .textoend {
+  border: solid rgb(209, 8, 182);
+  height: 150px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+ }
+ 
+
+ .textoend2 {
+  color: rgb(155, 13, 160);
+  width: 300px;
+ }
+
+
+ .mapa {
+   width: 200px;
+   height: 200px;
+   display: flex; 
+ }
+
+ .endereçomapa{
+   background-image: url(fundodeinformação.jpg);
+   background-color: rgb(50, 0, 54);
+   display: flex;
+   justify-content: center;
+ }
