@@ -131,7 +131,7 @@ nav a {
 
 
 }
-
+/**animaçao barra de pesquisa **/
 .animacao:hover {
     font-size: 1.2em !important;
     height: 50px;
@@ -149,14 +149,16 @@ nav a:hover {
     background-color: transparent;
 }
 
+/** personalização do section **/
  section {
 
     display: flex;
     flex-direction: row;
     background-color: rgb(0, 0, 0);
 
- }
 
+ }
+/** meio da div (sobre nos)**/
 .sobre-nos {
 
     width: 50%;
@@ -167,8 +169,7 @@ nav a:hover {
     align-items: center;    
 
 }
-
-
+   
  .titulo-sobre-nos-esquerdo{
 
     display: flex;
@@ -277,7 +278,7 @@ nav a:hover {
     align-items: center;
     justify-content: center;
     background-color: transparent;
-    color:rgb(132, 0, 255)
+    color:rgb(132, 0, 255);
 }
 
 .fundo-parte-quadrados {
@@ -287,24 +288,19 @@ nav a:hover {
 
 .pai-mapa {
 
-   
-    color: orange;
+    width: 60%  ;
+    color: rgb(255, 166, 0);
     display: flex;
     flex-direction: column;
     display: flex;
     justify-content: center;
-    align-items: center;
-
-
+    
 }
 
-.fundo-parte-mapa {
-
+.fundo-parte-mapa { 
     width: 100%;
     background-color:rgb(0, 0, 0) ;
     background-color: rgb(0, 0, 0);
-
-
 }
   
 .quadrado-endereço {
@@ -315,8 +311,8 @@ nav a:hover {
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-
-
+    color: rgb(132, 0, 255);
+    height: 200px;
 
 }
 
@@ -327,10 +323,4 @@ nav a:hover {
     width: 22%;
     position: relative;
     top: -10px;
-    
-
-
-
-
-
 }
