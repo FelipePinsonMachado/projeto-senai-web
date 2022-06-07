@@ -19,13 +19,13 @@ header {
     justify-content: space-between;
     height: 100%;
     align-items: center;
-    
+    width: 200px;
 }
 
 .logo {
     height:  50px;
     background-color: rgb(255, 0, 0);  
-
+    
 }
 
    
@@ -138,11 +138,6 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
     box-shadow: 4px 4px 6px #0000007a;
     }
 
-    .sobre-projetos{
-        display: flex;
-        align-items: row;
-    }
-
     .ladoesquerdo{
       background-color: rgba(7, 0, 17);
       width: 50%;
@@ -235,45 +230,87 @@ background-image: url(imagem-fundo-banner2.jpg);
     justify-content: center;
 }
 
-.endereco{
-    background-color: green;
-    display: flex;
+.endereco {
+    padding: 40px 0;
     background-image: url(imagem-fundo-banner2.jpg);
-    justify-content: center;
-}
-
-.conteudoend{
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    color: rgb(253, 229, 7);
-    padding-bottom: 50px;
-}
-
-.textoend {
-    border:solid 3px  rgb(81, 3, 83);
-    height: 150px;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-
-}
-
-.textoend2 {
-    color: white;
-    width: 300px;
-
-}
-
-.mapa {
-    width: 200px;
-    height: 200px;
-    display: flex;
+    }
+    
+    .conteudo-endereco {
+    margin: 0 auto;
+    max-width: 850px;
     position: relative;
-    top: -100px;
-}
-
+    }
+    
+    .conteudo-endereco h2 {
+    color: #FFAF00;
+    font-size: 50px;
+    font-weight: 500;
+    }
+    
+    .texto-endereco {
+    color: #A259F7;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #010010;
+    border: solid 2px #A259F7;
+    padding: 55px 55px;
+    }
+    
+    .texto-endereco p {
+    width: 400px;
+    font-size: 20px;
+    }
+    
+    .mapa {
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    }
+    
 .marginsection{
     margin-bottom: 100px;
-    margin-top: 50px;
+    margin-top: 50px;  
 }
+.sobre-projetos{
+    display: flex;
+    align-items: column;
+    background-color: #080324;
+}
+
+@media screen and (max-width: 1200px){
+
+  .sobre-projetos {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  nav{
+      display: none;
+      
+  }
+
+  .informacoes {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .endereco {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .banner {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+}
+
+#icone-menu{
+    color: white;
+    
+  }
