@@ -25,8 +25,7 @@ header {
 
 .logo {
     height:  50px;
-    background-color: rgb(255, 0, 0);  
-
+    background-color: rgb(255, 0, 0);
 }
 
    
@@ -227,6 +226,7 @@ section {
 
 .container-sobre-nos {
     display: flex;
+    flex-direction: row;
 
 
 }
@@ -246,6 +246,7 @@ section {
     background-image:url(imagem-fundo-info.jpg);
     display: flex;
     justify-content: space-around;
+    
 
 
 }
@@ -253,12 +254,13 @@ section {
 .conteudoinfo{ /** MUDA O CONTEUDO SOBRE OS PROJETOS*/
     margin: 50px;
     height: 250px;
-    width: 20%;
+    width: 100%;
     color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
     font-size: 25px;
-    margin: 20px;   
+    margin: 20px;
+   
 }
 
 .bordainfo{
@@ -313,7 +315,7 @@ section {
     position: relative;
     top: -40px;
    
-}
+}   
 
 .fundopartemapa{
     background-image: url(imagem-fundo-info.jpg)
@@ -321,6 +323,54 @@ section {
 
 
 
-  
+
+@media  screen and (max-width: 1200px) {
+    .container-sobre-nos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    nav  {
+        display: none;
+        
+    }
+    .conteudo-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imagem-mapa{
+        width: 250px;
+        position: absolute;
+      
+        right: 20px
+        
+    }
+
+    .conteudoinfo{
+       width: 75%;
+    }
+
+}
+
+#icone-menu{
+    color: white;
+
+}
 
 
