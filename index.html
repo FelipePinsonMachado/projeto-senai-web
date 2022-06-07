@@ -3,6 +3,7 @@
     <head>
         <title>Minha Primeira Pagina</title>
         <link rel="stylesheet" href="estilo.css"> <!-- stylesheet é padrao para css de estilos e o href vc vai colocar o link do seu css  -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     </head>
     <body>
         <header>
@@ -13,6 +14,7 @@
                        <a href="#sobre-nos">Sobre</a>
                        <a href="#endereço" class="botao-contato:hover">Endereço</a>  
                        <a href="mailto:kevinmatthewsrs@hotmail.com" class="contate-nos"> Contate-nos </a> <!-- "mailto" para vc colocar seu email e "?subject=" para escrever o assunto do email -->
+                       <i id="icone-menu" class="fas fa-bars"></i>
                    </nav>
             </div>
         </header>
@@ -28,7 +30,7 @@
                 </div>
             </div>
         </main>
-        <section id="sobre-nos" class="seção">
+        <section id="sobre-nos" class="secao">
         <div class="conteudo-total container-grid">    
             <div class="conteudo-um"> 
               <div class="pai">
@@ -70,15 +72,15 @@
                         </div>
             </div>
         </section>
-        <section id ="endereço" class="endereço">
-            <div class="sobre-localização">
-                  Endereço:
-                <div class="localização"> 
-                    <span>Alameda Barão de Limeira, 539 - Santa Cecilia, São Paulo - SP, 01202-001</span>             
-                    <div class="mapa-senai" src="mapa-senai.png" alt="mapa do senai"> </div>
-                </div>     
+        <section class="endereco" id="endereco">
+            <div class="container-grid conteudo-endereco">
+            <h2>Endereço:</h2>
+            <div class="texto-endereco">
+            <p>Alameda Barão de Limeira, 539 Santa Cecilia, São Paulo - SP CEP: 01202-001</p>
             </div>
-        </section>
+            <a href=Escola SENAI de Informática target="blank"><img class="mapa" src="mapa-senai.png" alt="Mapa mostrando a localização da escola."></a>
+            </div>
+            </section>
             <footer>
                 <span>Copyright&copy; 2022 - Escola Senai de Informática</span>
             </footer>

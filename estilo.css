@@ -176,9 +176,9 @@ footer span{
 }
 
 
-.seção{
+.secao{
     display:flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: rgb(29, 13, 29);
 
 }
@@ -254,6 +254,7 @@ footer span{
 .texto{
     height: 400px;
     width: 70%;
+    
 
 }
 
@@ -262,6 +263,7 @@ footer span{
     color:white;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    
 
 }
 
@@ -287,9 +289,11 @@ footer span{
     
 }
 
-/** uma div que cobre tudo desde o conteudo um ate o conteudo */
+/** uma div que cobre tudo desde o conteudo um ate o conteudo 2 */
 .conteudo-total{
     display: flex;
+    
+
 
 }
 
@@ -383,63 +387,209 @@ footer span{
 }
 
 
-.endereço{
-    display: flex;
-    width: 100%;
-    background-image: url(imagem-fundo-info.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    display: flex;
-    align-items: flex-end;
-    justify-content:center;
+.endereco {
+    padding: 40px 0;
+    background-image: url(imagem-fundo-ranking.jpg);
+    }
+   
+    
+    .conteudo-endereco {
+    margin: 0 auto;
+    max-width: 850px;
+    position: relative;
+    }
+    
+
+    .conteudo-endereco h2 {
+    color: #FFAF00;
+    font-size: 50px;
+    font-weight: 500;
+    }
+    
+
+    .texto-endereco {
+    color: #A259F7;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #010010;
+    border: solid 2px #A259F7;
+    padding: 55px 55px;
+    }
+    
+
+    .texto-endereco p {
+    width: 400px;
+    font-size: 20px;
+    }
+    
+
+    .mapa {
+    width: 250px;
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    }
+
+    
+@media screen and (max-width: 599px) {
+    .conteudo-total {   
+        display: flex;     
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;      
+    }  
+    
+    
+    .conteudo-dois{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .texto{
+        height: 500px;
+        width: 500px;
+
+    }
+
+
+    .subtitulo{
+        width: 500px;
+        height: 200px;
+    }
+
+    .participantes{
+        height: 60px;
+        width: 500px;
+    }
+
+
+    .conteudo-um{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 800px;
+    }
+
+
+    .sobre-nos{
+        width: 500px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 55px;
+    }
+
+
+    .imagem-senai{
+        width: 500px;
+        height: 500px;
+
+
+    }
+
+
+    .banner-conteudo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center ;
+
+
+    }
+
+    .mouse{
+        
+        width:500px ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+
+    .banner-conteudo-texto h1{
+        font-size: 50px;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .conteudo-tres{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+
+    .duração{
+        background-color: black;
+        height: 100px;
+        width: 300px;
+        
+
+    }
+
+
+    .local{
+        background-color: black;
+        height: 100px;
+        width: 300px;
+
+
+
+    }
+
+
+    .desafios{
+        background-color: black;
+        height: 100px;
+        width: 300px;
+    }
+
+
+
+
+
+    .sobre-localização{
+        
+        width: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+       
+
+    }
+    .localização{
+        display: flex;
+        width: 500px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+
+    .localização span{
+        width: 300px;
+
+    }
+
+
+    .mapa{
+        position: relative;
+        bottom: 10;
+        
 
 }
-
-
-.sobre-localização{
-    margin: 25px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 47px;
-    color: orange;
-    margin: 25px;
-
-}
-
-
-.localização{
-    height: 200px;
-    width: 750px;
-    border: solid 3px #a259f7;
-    color: #a259f7;
+.conteudo-endereco{
     display: flex;
     align-items: center;
-    justify-content: space-between;  
-    background-color: black;
-    font-size: 20px;
-    flex-direction: row;   
-        
+    justify-content: center;
+    flex-direction: column;
 }
 
 
-/** position permite vc mexer na posição de de uma div ou qualquer outra coisa
-Top: pra cima; botton: para baixo; left: esquerda; right: direita;*/
-.mapa-senai{
-    background-image: url(mapa-senai.png);
-    background-size: cover;
-    background-color: blue;
-    width: 250px;
-    height: 230px;
-    position: relative;
-    right:10px;
-    top: -30px;
-    
-}
-
-
-.localização span{
-    width: 40%;
-    margin: 30px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 
