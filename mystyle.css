@@ -61,6 +61,8 @@ header {
     align-items: center;
 }
 /** modifica nossa logo*/
+
+
 .logo {
     height: 40px;
     background-color: #FF0000;    
@@ -139,8 +141,12 @@ h1 {
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFAFA;
+}
 
-
+.icone-menu {
+    color:#FFFAFA ;
+    background-color: #FFFAFA;
+   
 
 }
  
@@ -158,14 +164,16 @@ h1 {
 /** o conteudo 0 apenas adiciona o display flex a seus filhos e reeaproveitei p conteainer grid e seus comandos*/
 .conteudo-0 {
     display: flex;  
-
+    justify-content: space-between;
+    flex-direction: row;
 }
+
+    
 
 /** o conteudo 1 cria uma div e determina suas formataçoes*/
 .conteudo-1 {
 
      width: 50%;
-     height: 700px;
      background-color:  	#080324;
      font-size: 40px;    
 }
@@ -180,14 +188,18 @@ h1 {
 
 /** a imagem 1 determina a largura e altura do nosso conteudo 1*/
 .imagem-1 {
-    width: 50%;
+    width: 65%;
+    
    
 }
+
+    
+
+
 
 /* o conteudo 2 cria outra div para acrescentar textos e etc...**/
 .conteudo-2 {
     width: 50%;
-    height: 500px;
     background-color: 		#080324;
   
 
@@ -211,9 +223,10 @@ h1 {
 .texto-4 {
     color: #FFFAFA;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    
    
 }
-/**   fim da nosssa section primeira section   */
+/**   fim da nossa primeira section   */
 
 /**   inicio da nossa segunda section   */
 .segunda-section {
@@ -222,8 +235,7 @@ h1 {
     flex-direction: row;
     justify-content: space-around;
     background-image:url(imagem-fundo-section2.jpg) ;
-    height: 200px;
-    
+
 
 }
 
@@ -353,9 +365,18 @@ h1 {
 
 }
 
+.imagem-mapa {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
 
 .mapa {
-    position: relative;
+    width: 250px;
+    position: absolute;
     top: -70px;
     bottom: -20px;
     right: -50px;
@@ -370,8 +391,35 @@ h1 {
 }
 
 
+@media screen and (max-width: 1200px) {
 
+    .conteudo-0 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .imagem-1 {
+        width: 100%;
+    
+    } 
+    .segunda-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;      
+    }
+    .mapa {
+        width: 250px;
+        position: relative;
+        top: -70px;
+        bottom: -20px;
+        right: -50px;
+     
+     }
+    
+        
+    
 
+}
 
 
 
