@@ -32,7 +32,7 @@ header {
 
    /** ESTILIZA O FUNDO DO SITE*/
    .banner{
-    background-image: url(imagem-fundo-banner.jpg);
+    background-image: url(../image/imagem-fundo-banner.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -243,7 +243,7 @@ section {
  
 
 .info{ 
-    background-image:url(imagem-fundo-info.jpg);
+    background-image: url(../image/imagem-fundo-info.jpg);
     display: flex;
     justify-content: space-around;
     
@@ -282,7 +282,7 @@ section {
    display: flex;
    flex-direction: column;
    align-items: flex-end;
-   background-image: url(imagem-fundo-info.jpg);
+   background-image: url(../image/imagem-fundo-info.jpg);
    width: 70%;
    justify-content:center ;
    font-family: 'Courier New', Courier, monospace;
@@ -298,7 +298,7 @@ section {
     border: solid 3px rgb(132, 0, 255);
     display: flex;
     flex-direction: row;
-    background-image: url(imagem-fundo-info.jpg);
+    background-image: url(../image/imagem-fundo-info.jpg);
     color: rgb(255, 255, 255);
     height: 200px;
     margin-bottom: 100px ;
@@ -318,7 +318,7 @@ section {
 }   
 
 .fundopartemapa{
-    background-image: url(imagem-fundo-info.jpg);
+    background-image: url(../image/imagem-fundo-info.jpg);
     display: flex;
     
 }
