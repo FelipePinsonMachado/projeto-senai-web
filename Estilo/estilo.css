@@ -63,7 +63,7 @@ cover serve para a imagem cobrir toda a div
 position é pra centralizar a imagem
 no repeat serve para a imagem nao ficar repetindo ao longo da div */
 .banner {
-    background-image: url(imagem-fundo-banner.jpg);
+    background-image: url(../Imagem/imagem-fundo-banner.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -282,7 +282,7 @@ footer span{
 
 /** div envolvendo a imagem do portão do senai*/
 .imagem-senai{
-    background-image: url(senai-portao.jpeg);
+    background-image: url(../Imagem/senai-portao.jpeg);
     background-size: cover;
     width: 850px;
     height: 700px;
@@ -308,8 +308,7 @@ footer span{
 
 .info{
     display: flex;
-    
-    background-image: url(imagem-fundo-info.jpg);
+    background-image: url(../Imagem/imagem-fundo-info.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -390,7 +389,7 @@ footer span{
 
 .endereco {
     padding: 40px 0;
-    background-image: url(imagem-fundo-ranking.jpg);
+    background-image: url(../Imagem/imagem-fundo-ranking.jpg);
     }
    
     
