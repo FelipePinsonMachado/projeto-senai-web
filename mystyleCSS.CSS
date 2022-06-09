@@ -157,23 +157,40 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
     
     }
 
+    .cimacarro {
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .baixocarro {
+        color:white
+    }
+
    .imagem-carro {
-      width: 90% ;
+      width: 70% ;
+      display: flex;
       
    } 
 
    .ladoesquerdoconteudo {
        background-color: rgba(7, 0, 17);
-       width: 80%;
+       width: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       flex-direction: column;
    }
 
    .ladodireitoconteudo {
      background-color: rgba(7, 0, 17);
-    width: 80%;
+    width: 100%;
 }
 
 .textoporsche {
-    color: rgb(215, 252, 9);
+    color: rgb(255, 238, 0);
 }
 
 .barra {
@@ -267,15 +284,20 @@ background-image: url(imagem-fundo-banner2.jpg);
     right: 20px;
     }
     
-.marginsection{
-    margin-bottom: 100px;
-    margin-top: 50px;  
+    .marginsection{
+        margin-bottom: 100px;
+        margin-top: 50px;  
 }
+
 .sobre-projetos{
     display: flex;
     align-items: column;
-    background-color: #080324;
+    background-color: rgba(7, 0, 17);
 }
+#icone-menu{
+    color: white;
+    visibility: hidden;
+  }
 
 @media screen and (max-width: 1200px){
 
@@ -283,6 +305,7 @@ background-image: url(imagem-fundo-banner2.jpg);
       flex-direction: column;
       align-items: center;
       justify-content: center;
+      background-color: rgba(7, 0, 17);;
   }
 
   nav{
@@ -307,10 +330,36 @@ background-image: url(imagem-fundo-banner2.jpg);
       flex-direction: column;
       align-items: center;
       justify-content: center;
-}
+
+  }
+
+  .ladoesquerdoconteudo{
+      background-color: rgba(7, 0, 17);
+      width: 100%;
+  }
+
+  .ladoesquerdo{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .ladodireito{
+      width: 10 ;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #icone-menu{
+      visibility: visible;
+  }
+
+  .marginsection{
+    margin-bottom: 0px;
+    margin-top: 0px;  
 }
 
-#icone-menu{
-    color: white;
-    
-  }
+}
+
