@@ -22,7 +22,7 @@ html, body {
 }
 
 .banner {
-    background-image: url(imagem-fundo-banner.jpg);
+    background-image: url(../image/imagem-fundo-banner.jpg);
     height: 768px;
     background-repeat: no-repeat; 
     background-size: cover;  
