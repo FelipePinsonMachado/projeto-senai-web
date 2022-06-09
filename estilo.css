@@ -301,13 +301,14 @@ footer span{
 .conteudo-tres{
     display: flex;
     justify-content: space-between;
+    
 
 }
 
 
 .info{
     display: flex;
-    width: 100%;
+    
     background-image: url(imagem-fundo-info.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -430,7 +431,7 @@ footer span{
     }
 
     
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 768px)  {
     .conteudo-total {   
         display: flex;     
         flex-direction: column;
@@ -438,76 +439,62 @@ footer span{
         align-items: center;      
     }  
     
-    
     .conteudo-dois{
         display: flex;
         flex-direction: column;
         height: 800px;
+        width: 100%; 
     }
 
     .texto{
-        height: 500px;
-        width: 500px;
-
+        width: 100%;
     }
 
-
     .subtitulo{
-        width: 500px;
+        width: 100%;
         height: 200px;
     }
 
     .participantes{
         height: 60px;
-        width: 500px;
+        width: 100%;
     }
-
 
     .conteudo-um{
         display: flex;
         justify-content: center;
-        align-items: center;
         height: 800px;
+        width: 100%;
     }
 
-
     .sobre-nos{
-        width: 500px;
+        width: 100%;
         height: 80px;
         display: flex;
-        align-items: center;
+        align-items:center;
         justify-content: center;
         font-size: 55px;
     }
 
-
     .imagem-senai{
-        width: 500px;
+        width: 100%;
         height: 500px;
-
-
     }
-
 
     .banner-conteudo{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center ;
-
-
     }
 
-    .mouse{
-        
-        width:500px ;
+    .mouse{    
+        width:100% ;
         display: flex;
         justify-content: center;
         align-items: center;
 
-
     }
-
 
     .banner-conteudo-texto h1{
         font-size: 50px;
@@ -515,81 +502,87 @@ footer span{
         justify-content: center;
     }
 
-
     .conteudo-tres{
         display: flex;
-        justify-content: center;
-        align-items: center;
         flex-direction: column;
-
+        justify-content: center;
     }
-
 
     .duração{
         background-color: black;
         height: 100px;
-        width: 300px;
-        
-
+        width: 100%;
     }
-
 
     .local{
         background-color: black;
         height: 100px;
-        width: 300px;
-
-
-
+        width: 100%;
     }
-
 
     .desafios{
         background-color: black;
         height: 100px;
-        width: 300px;
+        width: 100%;        
     }
 
-
-
-
-
     .sobre-localização{
-        
-        width: 500px;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
-       
-
     }
+
     .localização{
         display: flex;
-        width: 500px;
+        width: 100%;
         align-items: center;
         justify-content: center;
-        
     }
 
     .localização span{
-        width: 300px;
-
+        width: 100%;
     }
-
 
     .mapa{
         position: relative;
-        bottom: 10;
-        
+        right: -0px;
+        top: -2px;
+        width: 100%;
+    }         
 
+     .conteudo-endereco{
+      display: flex;
+      flex-direction: column;
+     }
+      
+     .sobre-endereco{
+         width: 100%;
+         height: 67px;  
+     }
+
+     .sobre-mapa{
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         width: 100%;
+         height: 350px;   
+     }
+
+    nav{
+        visibility: hidden;
+    }
+
+    .conteudo-banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fa-bars {
+       color: white;
+    }
+    
 }
-.conteudo-endereco{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-
 
