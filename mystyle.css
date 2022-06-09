@@ -40,7 +40,6 @@ html, body {
     /** CENTRALIZAR CONTEUDOS EM LUGARES DIFERENTES, SEM BORDA*/
    .container-grid{
     width: 80%;
-    position: relative; 
     margin: 0 auto;    
 }
 
@@ -138,11 +137,12 @@ html, body {
     height: 240px;
     width: 500px;
     display: flex;
+    border: solid 2px #F9003D;
 }
 
 
 .conteudo1{   
-    width: 950px;
+    width: 100%;
     height: 400px;
     display: flex;
     align-items: center;
@@ -151,12 +151,12 @@ html, body {
 }
 
 .conteudo2{
-    width: 700px;
-    height: 400px;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    height: 400px;
 }
 
 .cimadocarro{
@@ -189,27 +189,33 @@ html, body {
 
 .info {
     display:flex;
-    justify-content:space-around;
     background-color: rgb(1, 0 ,19);
-    padding-bottom: 50px;
+    padding-bottom: 40px;
 }
 
 .conteudo-info{
     color:white;
-    width: 200px;
+    width: 300px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
+.box-conteudo{
+    display: flex;
+    justify-content: space-between;
+
+}
 .texto-info {
     color: purple;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
+    width: 100%;
     height: 50px;
     border: solid 3px purple;
-    font-family: 'Impact', fantasy  
+    font-family: 'Impact', fantasy;
+  
 }
 
 .texto{
@@ -254,13 +260,25 @@ html, body {
     right: 15px;
     border: solid 3px rgb(255, 238, 0)
 }
-
+.box-conteudo-sobrenos{
+    display: flex;
+}
 .sobre-nos{
     background-color: rgb(1, 0 ,19);
     display: flex;
+    width: 100%;
+}
+
+#icone-menu{
+    visibility: hidden;
+    color: white;
 }
     
 @media screen and (max-width: 1200px){
+    .box-conteudo-sobrenos{
+        flex-direction: column;
+    }
+
     .sobre-nos {
         flex-direction: column;
         align-items: center;
@@ -270,22 +288,39 @@ html, body {
         display:none;
     }
 
-    .info{
+    .info .box-conteudo{
         flex-direction: column;
         align-items: center;    
         justify-content: center;
     }
-    
-    .conteudoend{
+
+    .conteudo-info{
+        
+        color:white;
+        display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
     }
     
- 
-}
-#icone-menu{
-    color: white;
-    visibility:hidden ;
+    .conteudoend{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    #icone-menu{
+        visibility: visible;
+    } 
 
-}
+    .texto-info {
+        color: purple;
+        display: flex;
+        align-items: center;
+        justify-content: column;
+        width: 100%;
+        height: 50px;
+        border: solid 3px purple;
+        font-family: 'Impact', fantasy
+    }
+    
+    }
