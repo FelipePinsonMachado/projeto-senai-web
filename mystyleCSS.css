@@ -281,13 +281,13 @@ section {
     color: rgb(132, 0, 255);
    display: flex;
    flex-direction: column;
-   justify-content: center;
-   align-items: center;
+   align-items: flex-end;
    background-image: url(imagem-fundo-info.jpg);
    width: 70%;
-   align-items: center;
    justify-content:center ;
    font-family: 'Courier New', Courier, monospace;
+   
+   
 
    
    
@@ -297,13 +297,11 @@ section {
 .quadrado-endereço{ /** MUDA OS CONTEUDOS DENTRO DA BORDINHA DO ENDEREÇO*/
     border: solid 3px rgb(132, 0, 255);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-around;
     flex-direction: row;
     background-image: url(imagem-fundo-info.jpg);
     color: rgb(255, 255, 255);
     height: 200px;
+    margin-bottom: 100px ;
     
 
 }
@@ -312,19 +310,23 @@ section {
     display: flex;
     align-items: flex-end;
     width: 29%;
-    position: relative;
     top: -40px;
-   
+    margin: 5px;
+    position: absolute;
+    right: 150px;
+    
 }   
 
 .fundopartemapa{
-    background-image: url(imagem-fundo-info.jpg)
+    background-image: url(imagem-fundo-info.jpg);
+    display: flex;
+    
 }
 
 
 
 
-@media  screen and (max-width: 1200px) {
+@media  screen and (max-width: 1200px) { /** permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela. */
     .container-sobre-nos {
         display: flex;
         flex-direction: column;
@@ -355,10 +357,13 @@ section {
     }
 
     .imagem-mapa{
-        width: 250px;
-        position: absolute;
-      
-        right: 20px
+     
+        width: 350px;
+        position: relative;
+
+
+
+       
         
     }
 
@@ -366,7 +371,7 @@ section {
        width: 75%;
     }
 
-}
+
 
 #icone-menu{
     color: white;
@@ -374,3 +379,4 @@ section {
 }
 
 
+}
