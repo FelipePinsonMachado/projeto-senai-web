@@ -32,7 +32,7 @@ header {
 
    /** ESTILIZA O FUNDO DO SITE*/
    .banner{
-    background-image: url(images/imagem-fundo-banner.jpg);
+    background-image: url(imagem-fundo-banner.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -208,7 +208,7 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
 display: flex;
 justify-content: space-around;
 background-color: blue;
-background-image: url(images/imagem-fundo-banner2.jpg);
+background-image: url(imagem-fundo-banner2.jpg);
 
 }
 
@@ -249,7 +249,7 @@ background-image: url(images/imagem-fundo-banner2.jpg);
 
 .endereco {
     padding: 40px 0;
-    background-image: url(images/imagem-fundo-banner2.jpg);
+    background-image: url(imagem-fundo-banner2.jpg);
     }
     
     .conteudo-endereco {
