@@ -1,0 +1,42 @@
+
+
+    .conteudo-0 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .imagem-1 {
+        width: 100%;
+    
+    } 
+    .segunda-section {
+        display: flex;
+        align-items: center;
+        flex-direction: column;      
+    }
+    .mapa {
+        width: 250px;
+        position: relative;
+        top: 0px;
+        bottom: -20px;
+        right: -20px; 
+     }
+     .endereço {
+        width: 100%;
+        
+    
+    } 
+    #icone-menu {
+        visibility: visible;
+
+
+    }    
+    
+    .menu{
+     display: none;
+
+
+    }
+
+
+
