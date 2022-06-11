@@ -20,7 +20,6 @@ html, body {
     justify-content: space-between;
     height: 100%;
     align-items: center;
-
 }
 
 .logo {
@@ -30,7 +29,7 @@ html, body {
 
    /** ESTILIZA O FUNDO DO SITE*/
    .banner{
-    background-image: url(imagem-fundo-banner.jpg);
+    background-image: url(../Image/imagem-fundo-banner.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -63,19 +62,19 @@ html, body {
 
    /** PAI DOS CONTEUDOS DENTRO DO BANNER*/
 .banner-conteudo-texto{ 
-       display: flex;
-        height: 60%;
-        flex-direction: column;
-        justify-content: space-around;
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .mouse{
-       width: 80px;
+    width: 80px;
 }
 
 .linha{
     border: solid 1px #FFAF00;
-   }
+}
 
    /** MODIFICA O ESTILO DO TEXTO DO BANNER */
 .subtextobanner{ 
@@ -86,26 +85,25 @@ html, body {
     font-weight: 600;
 }
 
+    nav{    
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
-   nav{    
-    width: 50%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+    nav a:hover:not(.quadrado) {
+        font-size: 15px;
+        transition: 2s;
+    }
 
-   nav a:hover:not(.quadrado) {
-    font-size: 15px;
-    transition: 2s;
-}
-
-   nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
-    text-decoration: none;   
-    height: 15px;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 15px;
-    color: white;
-    text-transform: uppercase;
+    nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
+        text-decoration: none;   
+        height: 15px;
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: white;
+        text-transform: uppercase;
 }
 
 .quadrado:hover{
@@ -127,11 +125,10 @@ html, body {
     justify-content: center;
 }
 
-  section{
-    display:flex;
-    flex-direction: row;
+     section{
+        display:flex;
+        flex-direction: row;
 }
-
 
 .carrinho{
     height: 240px;
@@ -139,7 +136,6 @@ html, body {
     display: flex;
     border: solid 2px #F9003D;
 }
-
 
 .conteudo1{   
     width: 100%;
@@ -182,7 +178,6 @@ html, body {
 }
 
 .ladodocarro2{
-
     font-family: 'Courier New', Courier, monospace;
     color: #f9bf00;
 }
@@ -215,7 +210,6 @@ html, body {
     height: 50px;
     border: solid 3px purple;
     font-family: 'Impact', fantasy;
-  
 }
 
 .texto{
@@ -246,8 +240,8 @@ html, body {
     border: solid 2px #A259F7;
     padding: 30px ;
  }
-    
-.texto-endereco p {
+
+ .texto-endereco p {
     width: 400px;
     font-size: 20px;
 }
@@ -260,9 +254,11 @@ html, body {
     right: 15px;
     border: solid 3px rgb(255, 238, 0)
 }
+
 .box-conteudo-sobrenos{
     display: flex;
 }
+
 .sobre-nos{
     background-color: rgb(1, 0 ,19);
     display: flex;
@@ -274,53 +270,3 @@ html, body {
     color: white;
 }
     
-@media screen and (max-width: 1200px){
-    .box-conteudo-sobrenos{
-        flex-direction: column;
-    }
-
-    .sobre-nos {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }   
-     nav{
-        display:none;
-    }
-
-    .info .box-conteudo{
-        flex-direction: column;
-        align-items: center;    
-        justify-content: center;
-    }
-
-    .conteudo-info{
-        
-        color:white;
-        display: flex;
-        flex-direction: column;
-    }
-    
-    .conteudoend{
-        width: 100%;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-    
-    #icone-menu{
-        visibility: visible;
-    } 
-
-    .texto-info {
-        color: purple;
-        display: flex;
-        align-items: center;
-        justify-content: column;
-        width: 100%;
-        height: 50px;
-        border: solid 3px purple;
-        font-family: 'Impact', fantasy
-    }
-    
-    }

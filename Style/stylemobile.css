@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px){
+    .box-conteudo-sobrenos{
+        flex-direction: column;
+    }
+
+    .sobre-nos {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }   
+     nav{
+        display:none;
+    }
+
+    .info .box-conteudo{
+        flex-direction: column;
+        align-items: center;    
+        justify-content: center;
+    }
+
+    .conteudo-info{
+        
+        color:white;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .conteudoend{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    #icone-menu{
+        visibility: visible;
+    } 
+
+    .texto-info{
+        color: purple;
+        display: flex;
+        align-items: center;
+        justify-content: column;
+        width: 100%;
+        height: 50px;
+        border: solid 3px purple;
+        font-family: 'Impact', fantasy
+    }  
+}
