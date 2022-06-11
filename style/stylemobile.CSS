@@ -1,0 +1,60 @@
+
+
+
+  .sobre-projetos {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(7, 0, 17);;
+  }
+
+
+  .informacoes {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .endereco {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .banner {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+  }
+
+  .ladoesquerdoconteudo{
+      background-color: rgba(7, 0, 17);
+      width: 100%;
+  }
+
+  .ladoesquerdo{
+      width: 100%;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .ladodireito{
+      width: 10 ;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+  }
+
+  #icone-menu{
+      display:initial;
+      font-size: 100%;
+  }
+
+  .marginsection{
+    margin-bottom: 0px;
+    margin-top: 0px;  
+}
+

@@ -32,7 +32,7 @@ header {
 
    /** ESTILIZA O FUNDO DO SITE*/
    .banner{
-    background-image: url(imagem-fundo-banner.jpg);
+    background-image: url(../images/imagem-fundo-banner.jpg);
     height: 768px;
     background-repeat: no-repeat;
     background-position: center;
@@ -44,7 +44,6 @@ header {
     /** CENTRALIZAR CONTEUDOS EM LUGARES DIFERENTES, SEM BORDA*/
    .container-grid{
     width: 80%;
-   
     margin: 0 auto;
     
    }
@@ -52,8 +51,7 @@ header {
    /** DIV DA NAV, LOGO DO SENAI*/
    .conteudo-banner{
     display: flex;
-    align-items: flex-end;
-    
+    align-items: center;
     height: 100%;
    }
 
@@ -208,7 +206,7 @@ nav a{ /** MODIFICA APENAS O TEXTO DO CABEÇARIO (NAV)*/
 display: flex;
 justify-content: space-around;
 background-color: blue;
-background-image: url(imagem-fundo-banner2.jpg);
+background-image: url(../images/imagem-fundo-banner2.jpg);
 
 }
 
@@ -249,7 +247,7 @@ background-image: url(imagem-fundo-banner2.jpg);
 
 .endereco {
     padding: 40px 0;
-    background-image: url(imagem-fundo-banner2.jpg);
+    background-image: url(../images/imagem-fundo-banner2.jpg);
     }
     
     .conteudo-endereco {
@@ -352,14 +350,13 @@ background-image: url(imagem-fundo-banner2.jpg);
       justify-content: center;
   }
 
-  #icone-menu{
-      visibility: visible;
-  }
-
   .marginsection{
     margin-bottom: 0px;
     margin-top: 0px;  
 }
 
-}
 
+#icone-menu{
+    color: white;
+    display: none;
+  }
