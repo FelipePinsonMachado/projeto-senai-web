@@ -1,0 +1,46 @@
+    .container-sobre-nos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    nav  {
+        display: none;
+        
+    }
+    
+
+    .info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .imagem-mapa{
+     
+        width: 350px;
+        position: relative;
+
+
+
+       
+        
+    }
+
+    .conteudoinfo{
+       width: 75%;
+    }
+
+
+
+    #icone-menu{
+    color: white;
+    visibility: visible;
+    font-size: 30px;
+    }
+

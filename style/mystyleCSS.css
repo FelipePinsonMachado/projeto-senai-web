@@ -323,60 +323,7 @@ section {
     
 }
 
-
-
-
-@media  screen and (max-width: 1200px) { /** permite a renderização de conteúdo para se adaptar a diferentes condições, como a resolução da tela. */
-    .container-sobre-nos {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-
-    }
-
-    nav  {
-        display: none;
-        
-    }
-    .conteudo-header{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    }
-
-    .info{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .imagem-mapa{
-     
-        width: 350px;
-        position: relative;
-
-
-
-       
-        
-    }
-
-    .conteudoinfo{
-       width: 75%;
-    }
-
-
-
 #icone-menu{
+    visibility: hidden;
     color: white;
-
-}
-
-
 }
