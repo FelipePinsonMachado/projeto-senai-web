@@ -1,0 +1,36 @@
+@media  screen and (max-width:786px) {
+
+    .menu {
+        display: none;
+    }
+    .sobre-nos-principal {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo1 {
+        width: 100%;
+    }
+    .conteudo2 {
+        width: 100%;
+    }
+    .info {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .conteudo-bloco {
+        width: 100%;
+    }
+    .mapa {
+        position: relative;
+    }
+    .texto-endereco {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .menu-barras {
+        display: initial;
+    }
+}

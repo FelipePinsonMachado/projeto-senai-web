@@ -199,6 +199,7 @@ footer {
     width: 400px;
     font-size: 20px;
     }
+    
     /** alinha o meu mapa **/
     .mapa {
     width: 250px;
@@ -207,36 +208,9 @@ footer {
     right: 20px;
     }
 
-@media  screen and (max-width:786px) {
-
-    .menu {
+    .menu-barras {
         display: none;
+        color: ivory;
+        font-size: 30px;
     }
-    .sobre-nos-principal {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .conteudo1 {
-        width: 100%;
-    }
-    .conteudo2 {
-        width: 100%;
-    }
-    .info {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .conteudo-bloco {
-        width: 100%;
-    }
-    .mapa {
-        position: relative;
-    }
-    .texto-endereco {
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-}
+
