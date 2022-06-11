@@ -1,0 +1,31 @@
+        .container-sobre-nos {
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       align-items: center; 
+
+        }
+        nav {
+         display: none;
+        }
+        .pai-mapa {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          align-items: center; 
+        }   
+        .pai-quadradinho {
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+           align-items: center; 
+        }   
+        .imagem-mapa {
+            position: relative;
+           
+        } 
+        #icone-menu {
+            display: initial;
+            color: white;
+            font-size: 40px;
+        }           
