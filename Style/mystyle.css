@@ -184,7 +184,7 @@ html, body {
 
 .info {
     display:flex;
-    background-color: rgb(1, 0 ,19);
+    background-color: black;
     padding-bottom: 40px;
 }
 
@@ -217,8 +217,8 @@ html, body {
 }
 
 .endereco {
-    padding: 40px 0;
-    background-color: rgb(1, 0 ,19);
+    padding: 40px;
+    background-color: black;
 }
     
 .conteudo-endereco {
@@ -260,7 +260,7 @@ html, body {
 }
 
 .sobre-nos{
-    background-color: rgb(1, 0 ,19);
+    background-color: black;
     display: flex;
     width: 100%;
 }
