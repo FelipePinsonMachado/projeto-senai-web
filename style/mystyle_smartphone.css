@@ -28,13 +28,30 @@
     } 
     #icone-menu {
         visibility: visible;
+     }
+        
+    .conteudo-1,.conteudo-2{
+        width: 100%;
+ 
 
 
-    }    
+    }
+
+    .menu {
+     flex-direction: column;
+     position: absolute;
+     top: 80px;
+     background-color: black;
+     height: 250px;
+     width: 100%;
+     left: 0px;
+     right: 0px;
+
+
+    }
     
-    .menu{
-     display: none;
-
+    .menu a {
+     background-color: blue;
 
     }
 
