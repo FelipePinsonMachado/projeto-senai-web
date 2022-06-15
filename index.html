@@ -2,9 +2,10 @@
 <html lang="pt-br">
     <head>
         <title>Minha Primeira Pagina</title>
-        <link rel="stylesheet" href="./Estilo/estilo.css"> <!-- stylesheet é padrao para css de estilos e o href vc vai colocar o link do seu css  -->
+        <link rel="stylesheet" href="Estilo/estilo.css"> <!-- stylesheet é padrao para css de estilos e o href vc vai colocar o link do seu css  -->
         <link rel="stylesheet" media="screen and (max-width: 768px)"  href="Estilo/My-style-mobile.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <script type="text/javascript" src="./js/script.js"></script>
     </head>
     <body>
         <header>
@@ -16,7 +17,7 @@
                        <a href="#endereço" class="botao-contato:hover">Endereço</a>  
                        <a href="mailto:kevinmatthewsrs@hotmail.com" class="contate-nos"> Contate-nos </a> <!-- "mailto" para vc colocar seu email e "?subject=" para escrever o assunto do email -->
                    </nav>
-                   <i id="icone-menu" class="fas fa-bars"></i>
+                   <i id="icone-menu" class="fas fa-bars" onclick="OcultarMostrarMenu ()"></i>
             </div>
         </header>
         <main>

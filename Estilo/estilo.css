@@ -151,7 +151,7 @@ font-weight altera a expessura da fonte*/
 
 
 /**hover permite acontecer uma ação somente quando eu passo o mouse em cima*/
-/** o not serve para vc excluir uma classe da função que vc colocou no hover*/-+
+/** o not serve para vc excluir uma classe da função que vc colocou no hover*/
 .menu-de-navegacao a:hover{
     transition: 1s;
     font-size: 20px;

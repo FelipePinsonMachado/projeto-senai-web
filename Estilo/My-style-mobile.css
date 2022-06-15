@@ -137,14 +137,24 @@
          height: 350px;   
      }
 
-    nav{
-        visibility: hidden;
+    .menu-de-navegacao{
+        background-color: black;
+        position: absolute;
+        top: 80px;
+        right: 0px;
+        height: 350px;
+        width: 100%;
+        flex-direction: column;
+        display: flex;
+        
     }
 
     .conteudo-banner{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
+        flex-direction: column;
+        
     }
 
     #icone-menu {
@@ -152,6 +162,25 @@
        color: white;
        font-size: 30px;
     }
+
+    .banner-conteudo-texto{
+        
+        height: 60%;
+    }
+
+    .menu-de-navegacao a{
+        text-decoration: underline white 2px ;
+        font-weight: 500;
+        font-size: 19px;
+
+    }
+
+    header{
+        display: flex;
+        
+    }
+
+
     
 }
 
