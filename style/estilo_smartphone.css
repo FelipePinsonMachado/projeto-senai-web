@@ -1,7 +1,13 @@
 @media  screen and (max-width:786px) {
 
     .menu {
-        display: none;
+        flex-direction: column;
+        background-color: black;
+        position: absolute;
+        width: 100%;
+        left: 0%;
+        top: 80px;
+        height: 200px;
     }
     .sobre-nos-principal {
         flex-direction: column;
