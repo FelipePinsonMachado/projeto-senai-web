@@ -50,8 +50,9 @@
 
     }
     
-    .menu a {
-     background-color: blue;
+    .borda-menu-mobile {
+    border-bottom:solid 1px #FFF;
+    
 
     }
 
