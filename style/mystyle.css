@@ -96,7 +96,7 @@ h1 {
 .menu a:hover:not(.quadrado) {
     font-size: 30px;
     transition: 1s;
-    color: black;
+    color: rgb(140, 0, 255);
 }
 
   /** faz um quadrado, coloca cor, alinha a palavra no centro **/
