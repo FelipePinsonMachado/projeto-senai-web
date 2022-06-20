@@ -4,13 +4,14 @@ function ocultarexibirmenu (nome) {
     var icone = document.getElementById("icone-menu");
 
 if (getComputedStyle(menu).display == 'none') {
-
+        //MOSTRA NO MOBILE
         menu.style.display = "flex";
         icone.classList.remove("fa-align-justify");
         icone.classList.add("fa-times");
 
   } else {
-
+        //OCULTA NO MOBILE
+        menu.removeAttribute('style');
         menu.style.display = "none";
         icone.classList.remove("fa-times");
         icone.classList.add("fa-align-justify");
