@@ -7,9 +7,9 @@ function ocultarexibirmenu (nome) {
        icone.classList.remove("fa-bars");
        icone.classList.add("fa-times");
     }else {
-       menu.style.display = 'none';
        icone.classList.remove("fa-times");
-       icone.classList.add("fa-bars")
+       icone.classList.add("fa-bars");
+       menu.removeAttribute ('style');
     }
    
 
