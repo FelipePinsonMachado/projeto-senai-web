@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Minha Calculadora</title>
+        <meta charset='utf-8' lang='pt-br'>
+        <link rel="stylesheet" href="_css/style.css">
+        <script src="_js/script.js"></script>
+    </head>
+    <body>
+      <main>
+        <table>
+            <tr>
+              <td colspan="4">
+                <h1 id='title' >Html / javascript</h1>
+                <form name='form'>
+                  <input class="displayCalc" name='displayCalc'>
+                </form>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="button" class='button' value="C" id="actionClear">
+                <input type="button" class='button' value="DEL"> 
+                <input type="button" class='button' value="/" onclick="registrarNumero('/')" >
+              </td>
+            </tr>
+            <tr>
+                <td>
+                  <input type="button" class='button' value="7" onclick="registrarNumero('7')">
+                  <input type="button" class='button' value="8" onclick="registrarNumero('8')">
+                  <input type="button" class='button' value="9" onclick="registrarNumero('9')">
+                  <input type="button" class='button' value="*" onclick="registrarNumero('*')" >
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <input type="button" class='button' value="4" onclick="registrarNumero('4')">
+                  <input type="button" class='button' value="5" onclick="registrarNumero('5')">
+                  <input type="button" class='button' value="6" onclick="registrarNumero('6')">
+                  <input type="button" class='button' value="-" onclick="registrarNumero('-')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <input type="button" class='button' value="1" onclick="registrarNumero('1')">
+                  <input type="button" class='button' value="2" onclick="registrarNumero('2')">
+                  <input type="button" class='button' value="3" onclick="registrarNumero('3')">
+                  <input type="button" class='button' value="+" onclick="registrarNumero('+')">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                  <input type='button' value='.' class='button' onclick="registrarNumero('.')">
+                  <input type='button' value='0' class='button' onclick="registrarNumero('0')">
+                  <input type="button" class='button' value="=" id='actionEqual'>
+                </td>
+            </tr>
+          </table>
+        </div>
+    </body>
+</html>
