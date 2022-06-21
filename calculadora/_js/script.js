@@ -1,5 +1,5 @@
 function calcularNumero() { 
-    //se usa o eval para haver uma soma entre o tela atual e o
+    //se usa o eval para haver uma soma entre o tela atual e ogit 
     var telaAtual = document.form.displayCalc.value;
     document.form.displayCalc.value = eval (telaAtual)
 }
