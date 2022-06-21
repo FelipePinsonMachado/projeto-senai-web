@@ -9,8 +9,23 @@ function RegistrarNumeros(acoes){
 
 }
 
+function calcularnumero(){
 
-function clear(){}
+    var telaAtual = document.form.displayCalc.value;
+    document.form.displayCalc.value = eval(telaAtual);         
+
+}
+
+function apagar(){
+
+    var telaAtual = document.form.displayCalc.value;
+    document.form.displayCalc.value = telaAtual.substring(0, telaAtual.length-1);
+ 
+}
 
 
-function allclear(){}
+function allclear(){
+
+    document.form.displayCalc.value = "";
+
+}

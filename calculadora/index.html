@@ -19,8 +19,8 @@
             </tr>
             <tr>
               <td>
-                <input type="button" class='button' value="C" id="actionClear">
-                <input type="button" class='button' value="DEL">
+                <input type="button" class='button' onclick="allclear()"value="C" id="actionClear">
+                <input type="button" class='button' onclick="apagar()" value="DEL">
                 <input type="button" class='button' onclick="RegistrarNumeros('/')"  value="/">
               </td>
             </tr>
@@ -30,7 +30,7 @@
                   <input type="button" class='button' onclick="RegistrarNumeros('7')" value="7">
                   <input type="button" class='button' onclick="RegistrarNumeros('8')" value="8">
                   <input type="button" class='button' onclick="RegistrarNumeros('9')" value="9">
-                  <input type="button" class='button' onclick="RegistarNumeros('*')" value="*">
+                  <input type="button" class='button' onclick="RegistrarNumeros('*')" value="*">
                 </td>
             </tr>
             <tr>
@@ -53,7 +53,7 @@
                 <td>
                   <input type='button' value='.' class='button'>
                   <input type='button' value='0' class='button' onclick="RegistrarNumeros('0')">
-                  <input type="button" class='button' value="=" id='actionEqual'>
+                  <input type="button" class='button' value="=" id='actionEqual' onclick="calcularnumero()">
                 </td>
             </tr>
           </table>
