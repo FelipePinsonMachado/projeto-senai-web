@@ -2,6 +2,7 @@ function calcularNumero () {
     //calcular o numero, puxado do registrar numero
     var telaAtual = document.form.displayCalc.value;
     document.form.displayCalc.value = eval(telaAtual);
+    
 }
 function registrarNumero (action) {
     //pegamos o valor digitado na tela
