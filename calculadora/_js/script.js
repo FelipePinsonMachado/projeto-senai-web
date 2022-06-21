@@ -1,5 +1,4 @@
 function calcularNumero (){
-//pegamos o valor atual digitado na tela
 var telaAtual = document.form.displayCalc.value;
 document.form.displayCalc.value = eval(telaAtual);
 
