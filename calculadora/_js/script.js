@@ -9,7 +9,8 @@ function registrarNumero(acoes) {
     //pegamos o valor digitado na tela
 var telaAtual = document.form.displayCalc.value;
     //escrever na tela o valor do atual (telaAtual) + o novo valor (acoes)
-document.form.displayCalc.value = telaAtual + acoes; 
+document.form.displayCalc.value = telaA
+tual + acoes; 
     
 }
 
@@ -25,5 +26,6 @@ function apagar() {
  function allclear() {
     // apagar toods os numeros
     document.form.displayCalc.value = "";
+
 
  }
