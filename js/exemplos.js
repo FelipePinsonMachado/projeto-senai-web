@@ -11,5 +11,17 @@ function testeFor (){
     
 }
 
+function testewhile(){
+
+    let cont = 0;
+    while(cont < 10)
+
+    {
+        var mostrarcontagemwhile = document.getElementById("mostrar-contagem-while");
+        mostrarcontagemwhile.innerHTML += "numero" + cont + "<br>";
+        cont ++;
+    }
+
+}
 
 
