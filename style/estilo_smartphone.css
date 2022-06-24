@@ -1,5 +1,3 @@
-@media  screen and (max-width:786px) {
-
     .menu {
         flex-direction: column;
         background-color: black;
@@ -8,6 +6,7 @@
         left: 0%;
         top: 80px;
         height: 200px;
+        display: none;
     }
     .sobre-nos-principal {
         flex-direction: column;
@@ -39,4 +38,3 @@
     .menu-barras {
         display: initial;
     }
-}

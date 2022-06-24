@@ -1,5 +1,5 @@
 function ocultarmostrarmenu (nome) {
-    var menu   =document.getElementById("menu-header");
+    var menu   =document.getElementById("menu");
     var icone  =document.getElementById("icone-menu");
     if (getComputedStyle (menu).display == 'none') {
         menu.style.display = "flex";
