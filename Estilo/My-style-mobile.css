@@ -1,4 +1,4 @@
-@media screen and (max-width: 768px)  {
+
     .conteudo-total {   
         display: flex;     
         flex-direction: column;
@@ -145,7 +145,7 @@
         height: 350px;
         width: 100%;
         flex-direction: column;
-        display: flex;
+        display: none;
         
         
     }
@@ -183,5 +183,5 @@
 
 
     
-}
+
 
