@@ -404,7 +404,7 @@ h1 {
 
 #icone-menu{
     color: #FFFAFA;
-    visibility: hidden;
+    display: none;
     font-size: 30px;
     
     

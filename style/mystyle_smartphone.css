@@ -27,7 +27,7 @@
     
     } 
     #icone-menu {
-        visibility: visible;
+        display: initial;
      }
         
     .conteudo-1,.conteudo-2{
@@ -38,6 +38,7 @@
     }
 
     .menu {
+     display: none;   
      flex-direction: column;
      position: absolute;
      top: 80px;
