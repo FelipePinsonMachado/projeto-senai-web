@@ -5,3 +5,16 @@ function testeFor ()
         mostrarcontagem.innerHTML += "numero " + cont + "<br>";
     }
 }
+
+function testWhile () 
+{
+    let cont=0;
+    while (cont <10)
+    {
+        console.log ("numero:" +cont);
+        cont=cont +1;
+        var mostrarcontagemwhile = document.getElementById ("mostrar-contagem-while");
+        mostrarcontagemwhile.innerHTML += "numero " + cont + "<br>";
+    }
+
+}
