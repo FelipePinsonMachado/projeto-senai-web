@@ -24,4 +24,22 @@ function testewhile(){
 
 }
 
+function testeswitch(){
 
+    let data_hora = new Date();
+    let dia_semana = data_hora.getDay();
+    switch(10)
+    {
+        case 0:  alert("Domingo de descanso merecido.");
+                 break;
+        case 5:  alert("Obaaa, sexta-feira.");
+                 break;
+        case 6:  alert("Maravilha, sabadão!!.");
+                 break;
+        default: alert("Semana longaaaa.");                
+
+    }
+
+        
+
+}
