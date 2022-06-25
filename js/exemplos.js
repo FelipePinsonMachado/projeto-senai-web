@@ -19,3 +19,18 @@ function testewhile (){
         cont--;    
     }
 }
+
+function testeSwitch() {
+    var data_hora = new Date();
+    var dia_semana = data_hora.getDay();
+    switch(747)
+    {
+        case 0:   alert("domingo de descanso merecido.");
+                  break;
+        case 5:   alert("Obaaa, sexta-feira.");
+                  break;
+        case 6:   alert("Maravilha, sabadão");
+                  break;
+        default:  alert("semana longaaa.");
+    }
+}
