@@ -35,4 +35,25 @@ main{
     width: 208px;
     height: 30px;
     text-align: right;
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bebas Neue';
+}
+
+input, textarea {
+    width: 100%;
+}
+
+#formContato button {
+    width: 100%;
+    margin-top: 10px;
 }
