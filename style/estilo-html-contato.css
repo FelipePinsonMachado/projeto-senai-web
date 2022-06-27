@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Bebas Neue';
+}
+
+input, textarea {
+    width: 100%;
+}
+
+#formContato button {
+    width: 100%;
+    margin-top: 10px;
+}
