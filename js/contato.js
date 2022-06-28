@@ -6,15 +6,19 @@
  */
  function enviarFormulario()
  {
-     var nome= document.formContato.nome.value;
-        alert (nome);
+        var nome= document.formContato.nome.value;
+        var fone= document.formContato.fone.value;
+        var assunto= document.formContato.assunto.value;
+        var mensagem= document.formContato.mensagem.value;
 
-    var fone= document.formContato.fone.value;
-        alert (fone);
+    if (nome=="" || fone=="" || assunto=="" || mensagem=="") {
+        alert ("campos nao podem ser vazios");
+        return;
+    }
+     alert ("formulario enviado com sucesso");
 
-    var assunto= document.formContato.assunto.value;
-        alert (assunto);
-
-    var mensagem= document.formContato.mensagem.value;
-        alert (mensagem);
+     document.formContato.nome.value = "";
+     document.formContato.fone.value= "";
+     document.formContato.assunto.value = "";
+     document.formContato.mensagem.value = "";
  }
