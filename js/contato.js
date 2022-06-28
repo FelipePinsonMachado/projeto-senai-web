@@ -20,7 +20,7 @@
    return;
    }
     
-     alert("FORMULARIO ENVIADO COM SUCESSO")
+     alert("FORMULARIO ENVIADO COM SUCESO")
     
  
 
