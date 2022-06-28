@@ -10,20 +10,22 @@
 
     var nome = document.formContato.nome.value;
 
-    alert(nome);
-
     var telefone = document.formContato.fone.value;
-
-    alert(telefone);
 
     var assunto = document.formContato.assunto.value;
 
-    alert(assunto);
-     
     var mensagem = document.formContato.mensagem.value;
 
-    alert(mensagem);
+     
+    if (nome=="" ||assunto=="" ||telefone=="" || mensagem =="" ){
 
-    
+        alert('campos nao podem ser vazios');
+        return;
+      }
+   
 
+   alert('formulario enviado com sucesso'); document.formContato.nome.value = "";
+   document.formContato.fone.value = "";
+   document.formContato.assunto.value = "";
+   document.formContato.mensagem.value ="";
  }
