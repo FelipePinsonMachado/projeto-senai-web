@@ -1,4 +1,4 @@
-function ocultarexibirmenu (nome) {
+function ocultarexibirmenu () {
 
     var menu = document.getElementById("menu-header");
     var icone = document.getElementById("icone-menu");
@@ -12,7 +12,6 @@ if (getComputedStyle(menu).display == 'none') {
   } else {
         //OCULTA NO MOBILE
         menu.removeAttribute('style');
-        menu.style.display = "none";
         icone.classList.remove("fa-times");
         icone.classList.add("fa-align-justify");
  }
