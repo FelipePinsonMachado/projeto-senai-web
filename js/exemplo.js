@@ -38,6 +38,8 @@ var numero2=document.numeros.numerofinal
         case 6: alert("sabado");
             break;
         default: alert("semana longa");
+        case 7: alert("segunda");
+        break;
 }
 }
     

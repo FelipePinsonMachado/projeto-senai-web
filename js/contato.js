@@ -15,6 +15,21 @@
     var dadosNome=document.formContato.nome.value;
     var dadosFone=document.formContato.fone.value;
     var dadosAsuntos=document.formContato.assunto.value;
-    var dadosMensagem=document.formContato.mensagem.value;
-    alert(dadosNome+dadosFone+dadosAsuntos+dadosMensagem);
- }
+    var dadosMensagem=document.formContato.mensagem.value; 
+        if(dadosNome ==""||dadosFone ==""||dadosAsuntos ==""||dadosMensagem==""){
+            alert("O FORMULARIO PRECISA ESTAR PREENCHIDO")
+            return;              
+    }
+            alert("FORMULARIO ENVIADO COM SUCESSO");         
+    document.formContato.nome.value="";
+    document.formContato.fone.value="";
+    document.formContato.assunto.value="";
+    document.formContato.mensagem.value="";            
+}
+     
+
+
+      
+
+
+ 
