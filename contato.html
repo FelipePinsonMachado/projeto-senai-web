@@ -1,17 +1,40 @@
 <html>
-    <head>
-        <script type="text/javascript" src="js/contato.js"></script>
-        <link rel="stylesheet" href="style/estilo-html-contato.css"> 
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
-    </head>
-    <body>
-        <section>
+
+<head>
+    <script type="text/javascript" src="js/contato.js"></script>
+
+    <link rel="stylesheet" href="style/mystyle.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="style/mystyle_smartphone.css">
+    <link rel="stylesheet" href="style/estilo-html-contato.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" class="icone-menu" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <script type="text/javascript" src="js/script.js"></script>
+</head>
+
+<body class="fundo">
+    <div class="conteudo">
+        <header>
+            <div class="conteainer-grid conteudo-header">
+                <img src="./image/logos_senai_branco.png" class="logo">
+                <nav class="menu" id="menu">
+                    <a class="borda-menu-mobile" href="index.html">inicio</a>
+                    <a class="borda-menu-mobile" href="index.html#sobre-nos">sobre</a>
+                    <a class="borda-menu-mobile" href="index.html#endereço">endereço</a>
+                    <a href="contato.html" class="botao-contato botao-contato-hover">contate-nos</a>
+                </nav>
+                <i id="icone-menu" class="fas fa-bars" onclick="ocultarmostrarmenu('marcos')"></i>
+            </div>
+        </header>
+        <section class="fundo-container">
             <div class="container">
+               <div class="formulario"> 
+               <h1> Fale Conosco</h1>
+               </div>
                 <form name="formContato" id="formContato">
                     <div class="row">
                         <div class="col-sm-6">
                             Nome:
-                            <input type="text" name="nome">
+                            <input type="text" name="nome" id="textos">
                         </div>
                         <div class="col-sm-6">
                             Telefone:
@@ -38,5 +61,11 @@
                 </form>
             </div>
         </section>
-    </body>
+        <footer class="rodape">
+            Copyright&copy; 2021 - Escola Senai de informatica
+
+        </footer>
+    </div>
+</body>
+
 </html>

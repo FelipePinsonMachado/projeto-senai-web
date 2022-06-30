@@ -19,7 +19,7 @@
      
     if (nome=="" ||assunto=="" ||telefone=="" || mensagem =="" ){
 
-        alert('campos nao podem ser vazios');
+        alert('Por favor, preencha os campos obrigatorios');
         return;
       }
    
