@@ -15,3 +15,48 @@ input, textarea {
     width: 100%;
     margin-top: 10px;
 }
+
+button {
+    height: 35px;
+}
+
+#formContato {
+    background-color: #494949;
+    border: 10px solid #505050;
+    box-shadow: crimson 10px 10px 10px;
+    
+}
+
+.titulo {
+    color: rgb(255, 0, 0);
+    display: flex;
+}
+
+.contato {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+    background-image: url(../image/imageviewer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sigam-sites {
+    background-color: rgb(255, 2, 2);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sigam {
+    color: ghostwhite;
+}
+
+.sites {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
