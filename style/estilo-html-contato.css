@@ -10,7 +10,7 @@ input, textarea {
 
 }
 body {
-    background-color: rgb(252, 134, 134);
+    background-color: rgb(179, 10, 10);
 }    
 
 .paicontatosFormulario{
@@ -69,10 +69,10 @@ color: rgb(0, 0, 0);
    
 }
 .informacoes-contatos {
-
+    background-color: rgb(255, 255, 255);
     height: 200px;
     display: flex;
-    background-color: rgb(179, 10, 10);
+    
 
   
 }
