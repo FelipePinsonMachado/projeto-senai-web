@@ -76,7 +76,7 @@ button {
     bottom: 0px;
     position: absolute;
     bottom: 0px;
-
-
-
+    flex-direction: column;
+    
 }
+
