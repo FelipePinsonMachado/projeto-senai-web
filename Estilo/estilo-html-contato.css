@@ -1,11 +1,15 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
 }
 
 body {
     font-family: 'Bebas Neue';
+    background-image: url(../Imagem/imagem-fundo-info.jpg);
+    
+    
+    
     
 }
 
@@ -21,3 +25,53 @@ input, textarea {
     
   
 } 
+footer{
+    height: 80px;
+    background-color: #F9003D;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+/**texto do footer*/
+footer span{
+    text-transform: uppercase;
+    font-size: 1em;
+    color:white;
+
+}
+.conteudo-formulario{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top: 280px ;
+}
+
+.sobre-footer{
+    position:absolute;
+    bottom:0px;
+    width:100%;
+}
+
+.row{
+    color: white;
+    
+   
+}
+
+.entre-em-contato{
+    color: orange ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    height: 100px;
+
+}
+
+button{
+    height: 40px;
+}
