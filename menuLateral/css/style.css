@@ -5,17 +5,19 @@ body {
     margin: 0;
     overflow: hidden;
     position: relative;
-}
+  
+  
 
+}
 /* O menu */
 /* O menu começara escondido */
 .menu {
-    background: #686868 repeat left top;
     left: -350px;
     height: 100%;
     top: 0;
     position: fixed;
     width: 350px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
 }
 
 .menu ul {
@@ -67,4 +69,44 @@ body {
 .icon-menu p {
     border-bottom: 2px solid;
     max-width: 79px;
+}   
+.bordaLateral {
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    height:100%;
+    width: 20%;
+    top: 0px;
+    right: 0px;
+
 }
+.bordaFinal {
+   background-color: red;
+ 
+    display: flex;
+    position: fixed;
+    bottom: 0px;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.letraSenai {
+    font-size: 500px;
+    color: white;
+}
+.direitos {
+    color: white;
+    width: 20%;
+
+
+    
+}
+.tela {
+    
+}
+
+
