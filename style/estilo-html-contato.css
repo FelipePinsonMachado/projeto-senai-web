@@ -1,8 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Bebas Neue';
 }
@@ -23,8 +18,7 @@ button {
 #formContato {
     background-color: #494949;
     border: 10px solid #505050;
-    box-shadow: crimson 10px 10px 10px;
-    
+    box-shadow: rgb(0, 0, 0) 10px 10px 10px;
 }
 
 .titulo {
@@ -32,20 +26,26 @@ button {
     display: flex;
 }
 
-.contato {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around; 
-    background-image: url(../image/imageviewer.png);
+body {
+    background-image: url(../image/imageviewer.jfif);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
+.contato {
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; 
+}
+
 .sigam-sites {
-    background-color: rgb(255, 2, 2);
+    background-color: rgb(255, 0, 0);
     justify-content: center;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -59,4 +59,22 @@ button {
     display: flex;
     justify-content: space-around;
     width: 50%;
+    margin-bottom: 15px;
+}
+
+.sites a {
+    color:rgb(25, 0, 255);
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+.conteudoformcontato {
+    position: relative;
+    height: 100%;
+    width: 100%;
 }
