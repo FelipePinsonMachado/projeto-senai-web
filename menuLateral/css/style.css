@@ -10,7 +10,8 @@ body {
 /* O menu */
 /* O menu começara escondido */
 .menu {
-    background: #686868 repeat left top;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(255,0,0,1) 38%);
     left: -350px;
     height: 100%;
     top: 0;
@@ -84,4 +85,21 @@ body {
     color: white;
     bottom: 0%;
     position: fixed;
+    height: 7%;
+}
+
+.imagem-fundo{
+    background-image: url("../Cerca-de-200-alunos-foram-capacitados-e-certificados-pelo-SENAI-como-patrulheiros-digitais.jpg");
+    display: flex;
+    justify-content: space-around;
+    z-index: 999999px;
+}
+
+body{
+    background-image: url("../Cerca-de-200-alunos-foram-capacitados-e-certificados-pelo-SENAI-como-patrulheiros-digitais.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 768px;
+
 }
