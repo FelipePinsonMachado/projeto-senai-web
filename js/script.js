@@ -1,5 +1,5 @@
 
-function ocultarexibirmenu (nome) {
+function ocultarexibirmenu (vitor) {
     var menu = document.getElementById("menu-header");
     var icone = document.getElementById("icone-menu");
 if (getComputedStyle(menu).display == 'none') {

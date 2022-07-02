@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script src="../menuLateral/js/script.js""></script>
+        <link rel="stylesheet" href="../menuLateral/css/style.css">
+        
+    </head>
+    <body>
+        <div class="menu">
+            <!-- Botão de Fechar -->
+            <!-- Pode ser trocado por uma imagem ou icone -->
+            <div class="icon-close" onclick="exibirOcultarMenuLateral(-350, 0);">
+             <h1><i class="fa fa-eye-slash" aria-hidden="true"></i></h1>
+            </div>
+            <!-- Menu -->
+            <ul>
+                <li>
+                    <a>Menu 1</a>
+                </li>
+                <li>
+                    <a href="#">Menu 2</a>
+                </li>
+                <li>
+                    <a href="#">Menu 3</a>
+                </li>
+                <li>
+                    <a href="#">Menu 4</a>
+                </li>
+            </ul>
+        </div>
+        <!-- Corpo do Site -->
+        <div class="container">
+            <div class="icon-menu" onclick="exibirOcultarMenuLateral(0, 350);">
+                <p>Menu</p>
+            </div>
+        </div>
+        <footer class="final-borda">Copyright 2022  Todos os direitos reservados. </footer>
+        
+    </body>
+</html>
