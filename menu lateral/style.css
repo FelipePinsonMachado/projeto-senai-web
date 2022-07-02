@@ -5,12 +5,16 @@ body {
   margin: 0;
   overflow: hidden;
   position: relative;
+  background-color: #ff0000;
+  
+  
+
 }
 
 /* O menu */
 /* O menu começara escondido */
 .menu {
-  background: #686868 repeat left top;
+  background: black repeat left top;
   left: -350px;
   height: 100%;
   top: 0;
