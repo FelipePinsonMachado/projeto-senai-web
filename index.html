@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 
     <html>
-        <head>
+        <head>           
             <link rel="stylesheet" href="style/mystyle.css">
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" /> 
             <link rel="stylesheet" media="screen and (max-width: 1200px)" href="style/stylemobile.css">  
+            <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+            <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script type="text/javascript" src="js/script.js"></script>
             <tittle></tittle>      
@@ -38,6 +40,31 @@
                     </div>
                 </div>
             </main>
+            <div class="menu">
+                <!-- Botão de Fechar -->
+                <!-- Pode ser trocado por uma imagem ou icone -->
+                <div class="icon-close" onclick="exibirOcultarMenuLateral(-350, 0);">
+                    <h1>X</h1>
+                </div>
+                <!-- Menu -->
+                <ul>
+                    <li>
+                        <a href="#sobre-nos">sobre</a>
+                    </li>
+                    <li>
+                        <a href="#endereco">endereço</a>
+                    </li>
+                    <li>
+                        <a class="quadrado" href="mailto:higorlucenahh@gmail.com?subject=Preciso Falar Com Voce"">CONTATE-NOS</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Corpo do Site -->
+            <div class="container">
+                <div class="icon-menu" onclick="exibirOcultarMenuLateral(0, 350);">
+                    <p>Menu</p>
+                </div>
+            </div>
             <section id="sobre-nos" class="sobre-nos container-grid">
                 <div class="box-conteudo-sobrenos container-grid">
                     <div class="conteudo1">                     
@@ -81,6 +108,7 @@
                     <a href=Escola SENAI de Informática target="blank"><img class="mapa" src="image/mapa.png" alt="Mapa mostrando a localização da escola."></a>
                 </div>
                </section>
+               
                 
             <footer class="partedebaixo"> 
                 <h0 class="textobaixo"><span>Copyright &copy; 2022 - Escola Senai de Informática</span></h0>
